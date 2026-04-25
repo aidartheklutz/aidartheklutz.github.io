@@ -1,13 +1,13 @@
+/* =========================
+   FONTS
+========================= */
+
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
 
-html {
-    font-size: 22px;
-}
 
-body {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-}
+/* =========================
+   ROOT / VARIABLES
+========================= */
 
 :root {
     --blue: #0226a8;
@@ -19,6 +19,25 @@ body {
     --link: #312ed1;
 }
 
+
+/* =========================
+   BASE LAYOUT
+========================= */
+
+html {
+    font-size: 22px;
+}
+
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+
+/* =========================
+   TYPOGRAPHY / GLOBAL
+========================= */
+
 body, button {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
@@ -29,6 +48,11 @@ body, button {
     font-size: 1rem;
 }
 
+
+/* =========================
+   BUTTONS
+========================= */
+
 button {
     background-color: var(--blue);
     border: none;
@@ -36,6 +60,17 @@ button {
     padding: 0.5rem;
     transition: color 0.3s ease;
 }
+
+button:hover {
+    background-color: var(--pale-blue);
+    color: var(--blue);
+    cursor: pointer;
+}
+
+
+/* =========================
+   UTILITIES
+========================= */
 
 .row-or-column {
     display: flex;
@@ -54,11 +89,10 @@ button {
     display: none;
 }
 
-button:hover {
-    background-color: var(--pale-blue);
-    color: var(--blue);
-    cursor: pointer;
-}
+
+/* =========================
+   MEDIA QUERIES (TYPOGRAPHY)
+========================= */
 
 @media (max-width: 1200px) {
     body, button {
@@ -84,7 +118,11 @@ button:hover {
     }
 }
 
-/* LINKS */
+
+/* =========================
+   LINKS
+========================= */
+
 a {
     text-decoration: none;
     color: var(--white);
@@ -99,9 +137,12 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
     cursor: pointer;
     transition: color 0.3s ease;
 }
-/* LINKS END */
 
-/* MARGIN-WRAPPER */
+
+/* =========================
+   MARGIN WRAPPER
+========================= */
+
 .margin-wrapper {
     background-color: none;
     margin-left: 240px;
@@ -114,10 +155,12 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
         margin-right: 5%;
     }
 }
-/* MARGIN-WRAPPER END */
 
 
-/* NAVBAR */
+/* =========================
+   NAVBAR
+========================= */
+
 #navLogo {
     height: 2em;
     width: auto;
@@ -218,5 +261,3 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
         display: inline;
     }
 }
-/* NAVBAR END */
-
