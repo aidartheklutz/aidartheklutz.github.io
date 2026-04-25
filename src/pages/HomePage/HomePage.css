@@ -1,0 +1,156 @@
+/* =========================
+   BASE
+========================= */
+
+button {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1249px) {
+    button {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 760px) {
+    button {
+        font-size: 0.65rem;
+    }
+}
+
+
+/* =========================
+   LAYOUT
+========================= */
+
+.row-or-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome {
+    max-width: 30rem;
+
+}
+
+.raccoonWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+/* =========================
+   TEXT
+========================= */
+
+.greeting {
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+
+/* =========================
+   RACCOON
+========================= */
+
+.raccoon {
+    height: 10vw;
+    width: auto;
+    background-color: var(--white);
+    border-radius: 3vw;
+    padding: 1vw;
+}
+
+
+/* =========================
+   SOCIALS
+========================= */
+
+.button-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: var(--pale-blue);
+    color: var(--blue);
+}
+
+.socials-tray {
+    margin-top: 1vw;
+    display: flex;
+    gap: 3vw;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.socials-tray1 {
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.social {
+    color: var(--solo-blue);
+    transition: color 0.3s ease;
+}
+
+.social:hover {
+    color: var(--pale-blue);
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 1249px) {
+    .welcome {
+        max-width: 20rem;
+    }
+
+    .raccoon {
+        height: 12vw;
+    }
+}
+
+@media (max-width: 1125px) {
+    .raccoon {
+        height: 18vw;
+    }
+}
+
+@media (max-width: 720px) {
+    .greeting {
+        text-align: center;
+    }
+    .welcome {
+        text-align: center;
+        max-width: none;
+    }
+
+    .socials-tray {
+        justify-content: center;
+    }
+
+    .row-or-column {
+        flex-direction: column-reverse;
+    }
+
+    .raccoonWrapper {
+        margin-top: 8vw;
+    }
+    .button-link {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,21 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    margin-bottom: 60px;
+}
+
+@media (max-width: 500px) {
+    img {
+        width: 50vw;
+    }
+    button {
+    margin-bottom: 30px;
+}
+}
