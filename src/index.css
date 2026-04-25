@@ -1,16 +1,13 @@
 /* =========================
    FONTS
 ========================= */
-
 @import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
-
-
 /* =========================
    ROOT / VARIABLES
 ========================= */
-
 :root {
     --blue: #0226a8;
+    --blue-opaque: #0226a830;
     --dark-blue: #010519;
     --white: #f5f8ff;
     --pale-blue: #9ab0fe;
@@ -18,26 +15,19 @@
     --paragraph-blue: #3863ff;
     --link: #312ed1;
 }
-
-
 /* =========================
    BASE LAYOUT
 ========================= */
-
 html {
     font-size: 22px;
 }
-
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
-
-
 /* =========================
    TYPOGRAPHY / GLOBAL
 ========================= */
-
 body, button {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
@@ -47,12 +37,9 @@ body, button {
     background-color: var(--dark-blue);
     font-size: 1rem;
 }
-
-
 /* =========================
    BUTTONS
 ========================= */
-
 button {
     background-color: var(--blue);
     border: none;
@@ -60,116 +47,99 @@ button {
     padding: 0.5rem;
     transition: color 0.3s ease;
 }
-
 button:hover {
     background-color: var(--pale-blue);
     color: var(--blue);
     cursor: pointer;
 }
-
-
 /* =========================
    UTILITIES
 ========================= */
-
 .row-or-column {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
 .hide {
     display: none;
 }
-
-
 /* =========================
    MEDIA QUERIES (TYPOGRAPHY)
 ========================= */
-
 @media (max-width: 1200px) {
     body, button {
         font-size: 0.95rem;
     }
 }
-
 @media (max-width: 850px) {
     body, button {
         font-size: 0.8rem;
     }
 }
-
 @media (max-width: 500px) {
     body, button, h1 {
         font-size: 0.7rem;
     }
 }
-
 @media (max-width: 330px) {
     body, button {
         font-size: 0.6rem;
     }
 }
-
-
 /* =========================
    LINKS
 ========================= */
-
 a {
     text-decoration: none;
     color: var(--white);
 }
-
 p.blue-link a {
     color: var(--paragraph-blue);
 }
-
 a:hover, p.blue-link a:hover, #navMenu:hover {
     color: var(--pale-blue);
     cursor: pointer;
     transition: color 0.3s ease;
 }
-
-
 /* =========================
-   MARGIN WRAPPER
+   MARGIN WRAPPER + MARGIN SUCH THAT CONTENT DOESN'T STICK TO NAVBAR
 ========================= */
+.content-margin {
+  margin-top: 90px;   /* increased so fixed navbar doesn't cover content */
+}
 
 .margin-wrapper {
     background-color: none;
+    margin-top: 6em;
     margin-left: 240px;
     margin-right: 240px;
 }
-
 @media (max-width: 1400px) {
     .margin-wrapper {
         margin-left: 5%;
         margin-right: 5%;
     }
 }
-
-
 /* =========================
    NAVBAR
 ========================= */
-
 #navLogo {
     height: 2em;
     width: auto;
-    
 }
 
 .nav-wrapper {
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
     background-color: var(--blue);
     display: flex;
     justify-content: space-between;
@@ -178,14 +148,9 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
     padding-left: 1.5vw;
     border-radius: 85px;
     margin-top: 2%;
-    margin-left: -2%;
-    margin-right: -2%;
-    align-items: center;
-}
-
-.nav-wrapper {
     margin-left: 240px;
     margin-right: 240px;
+    align-items: center;
 }
 
 .nav {
@@ -194,25 +159,21 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
     gap: 3vw;
     align-items: center;
 }
-
 .showDropdownMenu {
     display: flex;
     flex-direction: column-reverse;
     position: fixed;
     top: 1;
 }
-
 @media (max-width: 330px) {
     .showDropdownMenu {
         top: 30px;
     }
 }
-
 .dropdownMenuWrapper {
     display: flex;
     justify-content: right;
 }
-
 #dropdownMenu {
     position: fixed;
     top: 40px;
@@ -222,41 +183,36 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
     display: none;
     z-index: 9999;
 }
-
 #dropdownMenu.open {
     display: flex;
     flex-direction: column;
 }
-
 @media (max-width: 99999999px) {
     .navbarLink {
         display: inline;
     }
-
     #navMenu {
         display: none;
     }
 }
-
 @media (max-width: 1400px) {
     .nav-wrapper {
         margin-left: 5%;
         margin-right: 5%;
     }
 }
-
 @media (max-width: 500px) {
     .nav-wrapper {
         margin: 0 0 0 0;
         top: 0;
         border-radius: 0;
         max-width: 100%;
+        left: 0;
+        right: 0;
     }
-
     .navbarLink {
         display: none;
     }
-
     #navMenu {
         display: inline;
     }
