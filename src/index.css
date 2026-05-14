@@ -151,6 +151,7 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
     margin-left: 240px;
     margin-right: 240px;
     align-items: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
 .nav {

@@ -27,7 +27,7 @@ function NavBar(props) {
             <NavLink to="/projects">Projects</NavLink>
           </p>
           <p className="navbarLink">
-            <NavLink to="/gallery">Gallery</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </p>
           <p className="navbarLink">
             <NavLink to="/">Home</NavLink>
@@ -47,7 +47,7 @@ function NavBar(props) {
             <NavLink to="/projects">Projects</NavLink>
           </p>
           <p className="navbarLinkDD">
-            <NavLink to="/gallery">Gallery</NavLink>
+            <NavLink to="/blog">Blog</NavLink>
           </p>
           <p className="navbarLinkDD">
             <NavLink to="/">Home</NavLink>
