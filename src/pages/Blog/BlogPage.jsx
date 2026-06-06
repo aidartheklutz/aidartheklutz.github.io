@@ -2,7 +2,8 @@ import React from "react";
 import "./BlogPage.css";
 import NavBar from "../../components/NavBar";
 
-import ctfCover from "./content/ctf/cover.png";
+import ctfCover from "./content/ctf-140526/cover.png";
+import historyProjectCover from "./content/history-project-250426/cover.png";
 
 import { NavLink } from "react-router";
 
@@ -15,7 +16,16 @@ const posts = [
     image: ctfCover,
     category: "STORY",
     date: "14 May, 2026",
-    path: "/blog/ctf",
+    path: "/blog/ctf-140526",
+  },
+  {
+    id: 0,
+    title: "My Irrationally Large History Project",
+    description: "I met the criteria. Then I kept going.",
+    image: historyProjectCover,
+    category: "STORY",
+    date: "25 March, 2026",
+    path: "/blog/history-project-250426",
   },
 ];
 

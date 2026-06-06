@@ -35,9 +35,11 @@ Throughout the day, I discussed the CTF challenges with my friend Kima (not his 
 
 ### Back on Track
 
-I returned home at 5PM, opened my laptop, and was back in the game. "Fairy Tale" in the Misc section was a weird cryptic game created using Godot engine. At first, I tried to beat the game, but then quickly realized there was no way to. So I just renamed the file `FairyTaleLike.exe` to `FairyTaleLike.txt` and was able to view parts of GDScript code. After a quick Ctrl+F, I located the flag.
+I returned home at 5PM, opened my laptop, and was back in the race. "Fairy Tale" in the Misc section was a weird cryptic game created using Godot engine. At first, I tried to beat the game, but then quickly realized there was no way to. So I just renamed the file `FairyTaleLike.exe` to `FairyTaleLike.txt` and was able to view parts of GDScript code. After a quick Ctrl+F, I located the flag.
 
-Both challenges from the Forensics category provided the user with an image. The first image ("Invisible Ink") contained a hidden comment in its metadata. The second image ("Deep Layers") had a string hidden inside of it using Steghide, and the password was "school". Special thanks to [Aperi'Solve](https://www.aperisolve.com/), I would not find those flags without this online tool.
+Both challenges from the Forensics category provided the user with an image. The first image ("Invisible Ink") contained a hidden comment in its metadata. The second image ("Deep Layers") had a string hidden inside of it using [Steghide](https://medium.com/@prem112/installation-of-steghide-on-kali-linux-for-steganography-e9cc4d0904ce), and the password was "school". Nothing difficult, one might think, and that would be true - both tasks can be solved in just a few clicks. However, I previosuly had no experience with analyzing image data, and I spent about two hours messing around with them. At first, I installed a terminal application called [EXIFTool](https://exiftool.org/), which, as I read, would allow me to read the metadata of different images. Unfortunately, it was of no help. After that, I thought there could be a hidden ZIP-archive somewhere inside the file, and to look for anything like that I used the [HxD Hex editor](https://mh-nexus.de/en/hxd/).
+![me being delusional on HxD](/blog-pictures/blog-ctf-img6.png)
+Still, there was nothing inside. Only after a while I found out about [Aperi'Solve](https://www.aperisolve.com/), which is the ultimate online tool for different methods of searching for data hidden in image files, and it finally let me locate the flags. Finally, after two hours of scavenging for anything useful, I was ready to move on from Forensics.
 
 The last challenge I was able to solve was "Droned". It was a picture from a drone, and it was the picture me and Kima were trying to find the location of on Google Maps. I would not be able to solve it without Kima: while I was taking a short break from the CTF, he messaged me and sent the screenshot of the Google Maps location that exactly matched the provided image. In exchange, I gave him a hint for another task.
 
@@ -46,10 +48,10 @@ The last challenge I was able to solve was "Droned". It was a picture from a dro
 I was not able to solve anything after "Droned". Four challenges were left for me to solve, but they just felt impossible to crack. I think I need to practice OSINT more in order not to end up in such a situation again.
 
 However, I felt like I was close to solving the challenge "Hacking the Portal", which, by the way, had no solutions from other players. Basically, it provided an image of a Soviet-era building that stood somewhere in Bishkek, but it didn't ask for the name or location of that building - it said that this building had a special code name in some game about portals, and we had to find that secret name. The file was named `agent12.jpg`:
-![the Soviet-era building somewhere in Bishkek](/blog-pictures/blog-ctf-img4.png)
+![a Soviet-era building somewhere in Bishkek](/blog-pictures/blog-ctf-img4.png)
 I knew that the game in question was [Ingress](<https://en.wikipedia.org/wiki/Ingress_(video_game)>). It's a pretty niche game (at least in Kyrgyzstan) that uses AR to display portals in the real world. In the game, two factions fight for control over portals, or something along the lines of that, and the players are called agents. It was a complete match, I just had to find the location of that building on the real map of Bishkek, go to the same location on the Ingress map, and copy the name of the portal. However, after three hours of searching I still had no result. I could not find that building anywhere in Bishkek! I even asked my parents whether they found this building familiar... And so, this challenge was left unsolved as well. Midnight was approaching and I just accepted my loss and went to the kitchen to have a snack.
 
-The competition ended and I placed 23rd. Unfortunately, only the players in the first 15 places passsed to the second round, so I sacrificed my sleep for nothing. Or did I?
+The competition ended and I placed 23rd. Unfortunately, only the players in the first 15 places passed to the second round, so I sacrificed my sleep for nothing. Or did I?
 
 ## Conclusion
 

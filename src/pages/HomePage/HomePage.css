@@ -154,3 +154,9 @@ button {
         font-size: 12px;
     }
 }
+
+@media (max-width: 410px) {
+    .greeting {
+        font-size: 1.5rem;
+    }
+}
