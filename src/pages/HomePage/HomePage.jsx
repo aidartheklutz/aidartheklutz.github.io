@@ -21,9 +21,9 @@ function HomePage() {
               <p className="blue-link">
                 I am a school student from Kyrgyzstan and I aspire to become an
                 engineer. Here you can learn a little{" "}
-                <NavLink to="/aboutme">about me</NavLink>, visit my{" "}
-                <NavLink to="/gallery">gallery</NavLink>, check out some of the{" "}
-                <NavLink to="/projects">projects</NavLink> of mine or find my{" "}
+                <NavLink to="/aboutme">about me</NavLink>, read my{" "}
+                <NavLink to="/blog">blog</NavLink>, check out some of the{" "}
+                <NavLink to="/projects">projects</NavLink> of mine, or find my{" "}
                 <NavLink to="/links">socials</NavLink>.
               </p>
 

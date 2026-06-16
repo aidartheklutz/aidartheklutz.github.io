@@ -6,8 +6,55 @@ import MemoMate from "./covers/MemoMate.png";
 import TSITools from "./covers/TSITools.png";
 import PlanetProfile from "./covers/PlanetProfile.png";
 import SpectrumND from "./covers/SpectrumND.png";
+import ActiveRecaller from "./covers/ActiveRecaller.png";
+import WeatherNowKg from "./covers/WeatherNowKg.png";
 
-import { NavLink } from "react-router";
+const projects = [
+  {
+    title: "Active Recaller",
+    image: ActiveRecaller,
+    alt: "Active Recaller cover",
+    description:
+      "A web app designed to help students memorize texts using the Active Recall technique. The user pastes the text they need to remember the contents of, reads it, and gets transferred to the writing section once ready. The user recreates the text from memory and then an AI compares the user's recall with the original text. The user is then provided with a convenient list of points they wrote correctly, missed, remembered inaccurately, or made up.",
+    github: "https://github.com/aidartheklutz/active-recaller",
+    open: "https://activerecaller.vercel.app",
+  },
+  {
+    title: "TSITools",
+    image: TSITools,
+    alt: "TSITools cover",
+    description:
+      "TSITools is a website created specifically for students of the Technical School of Innovation (a technical school in Bishkek where I study). It includes a variety of useful tools, such as a GPA calculator, an AI-powered excuse letter generator, and affirmations.",
+    open: "https://tsitools.vercel.app",
+    github: "https://github.com/aidartheklutz/newTsiTools",
+  },
+  {
+    title: "MemoMate",
+    image: MemoMate,
+    alt: "MemoMate cover",
+    description:
+      "An app me and my friends built in less than 9 hours for a social impact hackathon. It has functions to assist people with memory issues (e.g., dementia, Alzheimer's disease).",
+    github: "https://github.com/aidartheklutz/MemoMate",
+    open: "https://expo.dev/accounts/aidartheklutz/projects/memomate/builds/c96e95c1-2b1f-4b57-b074-801fb5582071",
+  },
+  {
+    title: "SpectrumND",
+    image: SpectrumND,
+    alt: "SpectrumND cover",
+    description:
+      "An Instagram page educating the Russian-speaking community about neurodivergent conditions. Growing it is quite difficult, however I am determined to make the world a better place.",
+    open: "https://instagram.com/spectrum_nd",
+  },
+  {
+    title: "ПОГОДА ВОТ ЩАС",
+    image: WeatherNowKg,
+    alt: "WeatherNowKg cover",
+    description:
+      "I created ПОГОДА ВОТ ЩАС (Weather Now KG) as a small exercise in working with APIs and UI design, and it took about four hours to complete in total. It's a convenient website that provides weather information for most cities in Kyrgyzstan, displaying the current weather at the moment the page is opened.",
+    open: "https://weathernowkg.vercel.app",
+    github: "https://github.com/aidartheklutz/weather-now-kg",
+  },
+];
 
 function ProjectsPage() {
   return (
@@ -17,110 +64,43 @@ function ProjectsPage() {
       <div className="margin-wrapper">
         <h1 className="projects-title">My projects</h1>
         <div className="projects-grid">
-          {/* =========================
-              MEMOMATE
-          ========================= */}
+          {projects.map((project) => (
+            <div className="project-box" key={project.title}>
+              <img
+                className="project-cover"
+                src={project.image}
+                alt={project.alt}
+              />
 
-          <div className="project-box">
-            <img
-              className="project-cover"
-              src={MemoMate}
-              alt="MemoMate cover"
-            />
+              <div className="project-info">
+                <p className="project-title">{project.title}</p>
 
-            <div className="project-info">
-              <p className="project-title">MemoMate</p>
+                <p className="project-description">{project.description}</p>
 
-              <p className="project-description">
-                An app me and my friends built in less than 9 hours for a social
-                impact hackathon. It has functions to assist people with memory
-                issues (e.g., dementia, Alzheimer's disease).
-              </p>
+                <div className="project-actions">
+                  {project.github && (
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      className="project-button github-button"
+                    >
+                      <i className="bi bi-github"></i>
+                      <span className="github-text">GitHub</span>
+                    </a>
+                  )}
 
-              <NavLink to="/projects/MemoMate" className="link-button">
-                <p>Learn more</p>
-              </NavLink>
+                  <a
+                    href={project.open}
+                    target="_blank"
+                    className="project-button open-button"
+                  >
+                    <i className="bi bi-door-open-fill"></i>
+                    <span>Open</span>
+                  </a>
+                </div>
+              </div>
             </div>
-          </div>
-
-          {/* =========================
-              TSI TOOLS
-          ========================= */}
-
-          <div className="project-box">
-            <img
-              className="project-cover"
-              src={TSITools}
-              alt="TSI Tools cover"
-            />
-
-            <div className="project-info">
-              <p className="project-title">TSI Tools</p>
-
-              <p className="project-description">
-                A small website I created to help my schoolmates at Technical
-                School of Innovation (it's in Bishkek). It is a simple, yet
-                useful toolkit to help students navigate their daily routines.
-              </p>
-
-              <NavLink to="/projects/TSITools" className="link-button">
-                <p>Learn more</p>
-              </NavLink>
-            </div>
-          </div>
-
-          {/* =========================
-              PLANET PROFILE
-          ========================= */}
-
-          <div className="project-box">
-            <img
-              className="project-cover"
-              src={PlanetProfile}
-              alt="Planet Profile cover"
-            />
-
-            <div className="project-info">
-              <p className="project-title">Planet Profile</p>
-
-              <p className="project-description">
-                A collection of self-written articles about different planets of
-                the Solar System and beyond. Nothing special, just a passion
-                project, which I hope will find its audience among astronomy
-                enthusiasts.
-              </p>
-
-              <NavLink to="/projects/PlanetProfile" className="link-button">
-                <p>Learn more</p>
-              </NavLink>
-            </div>
-          </div>
-
-          {/* =========================
-              SPECTRUM ND
-          ========================= */}
-
-          <div className="project-box">
-            <img
-              className="project-cover"
-              src={SpectrumND}
-              alt="SpectrumND cover"
-            />
-
-            <div className="project-info">
-              <p className="project-title">SpectrumND</p>
-
-              <p className="project-description">
-                An Instagram page educating the Russian-speaking community about
-                neurodivergent conditions. Growing it is quite difficult,
-                however I am determined to make the world a better place.
-              </p>
-
-              <NavLink to="/projects/SpectrumND" className="link-button">
-                <p>Learn more</p>
-              </NavLink>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </>

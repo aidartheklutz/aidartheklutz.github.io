@@ -3,7 +3,7 @@ import "./BlogPage.css";
 import NavBar from "../../components/NavBar";
 
 import ctfCover from "./content/ctf-140526/cover.png";
-import historyProjectCover from "./content/history-project-250426/cover.png";
+import historyProjectCover from "./content/history-project-250326/cover.png";
 
 import { NavLink } from "react-router";
 
@@ -25,7 +25,7 @@ const posts = [
     image: historyProjectCover,
     category: "STORY",
     date: "25 March, 2026",
-    path: "/blog/history-project-250426",
+    path: "/blog/history-project-250326",
   },
 ];
 

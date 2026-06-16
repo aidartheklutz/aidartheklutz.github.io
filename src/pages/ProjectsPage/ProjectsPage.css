@@ -28,6 +28,8 @@
     transition:
         transform 0.2s ease,
         background-color 0.2s ease;
+    
+    cursor: default;
 }
 
 .project-box:hover {
@@ -49,7 +51,7 @@
 
     flex-shrink: 0;
 
-    border: 2px solid var(--white);
+    
 }
 
 
@@ -87,35 +89,62 @@
 
 
 /* =========================
-   BUTTON
+   BUTTONS
 ========================= */
 
-.link-button {
-    display: inline-flex;
-
-    align-items: center;
-    justify-content: center;
-
-    width: fit-content;
-
-    background-color: var(--blue);
-
-    border-radius: 30px;
-
-    padding:
-        0
-        1rem;
-
+.project-actions {
+    display: flex;
+    gap: 0.75rem;
     margin-top: auto;
-
-    transition:
-        background-color 0.3s ease,
-        color 0.3s ease;
+    flex-wrap: wrap;
 }
 
-.link-button:hover {
+.project-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    text-decoration: none;
+
+    border-radius: 999px;
+
+    padding: 0.75rem 1.2rem;
+
+    font-weight: 600;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.project-button:hover {
+    transform: translateY(-2px);
+}
+
+.github-button {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.github-button:hover {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
+.open-button {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.open-button:hover {
     background-color: var(--pale-blue);
     color: var(--blue);
+}
+
+.project-button i {
+    font-size: 1.1rem;
 }
 
 
@@ -170,4 +199,18 @@
     .project-title {
         font-size: 1.2rem;
     }
+
+    .open-button {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .github-text {
+        display: none;
+    }
+
+    .github-button {
+        padding: 0.5rem 0.75rem;
+        aspect-ratio: 1;
+    }
+    
 }
