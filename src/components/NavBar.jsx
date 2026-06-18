@@ -8,7 +8,7 @@ function NavBar(props) {
     <div>
       {/* NAVBAR */}
       <div className="nav-wrapper">
-        <NavLink to="/index.html">
+        <NavLink to="/">
           <img src={logo} id="navLogo" alt="logo" />
         </NavLink>
 
