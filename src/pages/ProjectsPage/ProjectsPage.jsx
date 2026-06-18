@@ -35,7 +35,7 @@ const projects = [
     alt: "Academap cover",
     description:
       "Academap is a map of Bishkek that helps school and university students discover useful opportunities; including olympiads, Model UN events, conferences, volunteering, internships, courses, film meetups, book clubs, English Talking Clubs, contests, trainings, seminars, workshops, hackathons, lectures, debates, career fairs, scholarships, and other activities; all in one place, without looking through countless websites and social media pages.",
-    github: "https://github.com/aidartheklutz/academap",
+    github: "https://github.com/aidartheklutz/academap#screenshots",
   },
   {
     title: "MemoMate",
