@@ -39,27 +39,27 @@ function NavBar(props) {
         <div id="dropdownMenu" className="hide">
           <p className="navbarLinkDD">
             <NavLink to="/links">
-              <i className="bi bi-folder-symlink-fill"></i> Links
+              <i className="bi bi-folder-symlink-fill"></i> Links
             </NavLink>
           </p>
           <p className="navbarLinkDD">
             <NavLink to="/portfolio">
-              <i className="bi bi-bookmark-fill"></i> Portfolio
+              <i className="bi bi-bookmark-fill"></i> Portfolio
             </NavLink>
           </p>
           <p className="navbarLinkDD">
             <NavLink to="/projects">
-              <i className="bi bi-file-earmark-code-fill"></i> Projects
+              <i className="bi bi-file-earmark-code-fill"></i> Projects
             </NavLink>
           </p>
           <p className="navbarLinkDD">
             <NavLink to="/blog">
-              <i className="bi bi-pen-fill"></i> Blog
+              <i className="bi bi-pen-fill"></i> Blog
             </NavLink>
           </p>
           <p className="navbarLinkDD">
             <NavLink to="/">
-              <i className="bi bi-house-fill"></i> Home
+              <i className="bi bi-house-fill"></i> Home
             </NavLink>
           </p>
         </div>
