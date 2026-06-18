@@ -186,7 +186,7 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
 }
 #dropdownMenu.open {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 @media (max-width: 99999999px) {
     .navbarLink {

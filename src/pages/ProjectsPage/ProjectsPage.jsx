@@ -8,6 +8,7 @@ import PlanetProfile from "./covers/PlanetProfile.png";
 import SpectrumND from "./covers/SpectrumND.png";
 import ActiveRecaller from "./covers/ActiveRecaller.png";
 import WeatherNowKg from "./covers/WeatherNowKg.png";
+import Academap from "./covers/Academap.png";
 
 const projects = [
   {
@@ -24,16 +25,24 @@ const projects = [
     image: TSITools,
     alt: "TSITools cover",
     description:
-      "TSITools is a website created specifically for students of the Technical School of Innovation (a technical school in Bishkek where I study). It includes a variety of useful tools, such as a GPA calculator, an AI-powered excuse letter generator, and affirmations.",
+      "TSITools is a website created specifically for students of the Technical School of Innovation (a technical school in Bishkek where I study). It includes a variety of useful tools, such as a GPA calculator, an AI-powered excuse letter generator, affirmations, etc.",
     open: "https://tsitools.vercel.app",
     github: "https://github.com/aidartheklutz/newTsiTools",
+  },
+  {
+    title: "Academap",
+    image: Academap,
+    alt: "Academap cover",
+    description:
+      "Academap is a map of Bishkek that helps school and university students discover useful opportunities; including olympiads, Model UN events, conferences, volunteering, internships, courses, film meetups, book clubs, English Talking Clubs, contests, trainings, seminars, workshops, hackathons, lectures, debates, career fairs, scholarships, and other activities; all in one place, without looking through countless websites and social media pages.",
+    github: "https://github.com/aidartheklutz/academap",
   },
   {
     title: "MemoMate",
     image: MemoMate,
     alt: "MemoMate cover",
     description:
-      "An app me and my friends built in less than 9 hours for a social impact hackathon. It has functions to assist people with memory issues (e.g., dementia, Alzheimer's disease).",
+      "MemoMate is a mobile app designed for people living with memory issues such as dementia or Alzheimer's disease, set up and managed by their caretaker. We built it as team Brynza during Nexel Hackathon in under 9 hours to give vulnerable individuals a simple, dignified tool for navigating daily life.",
     github: "https://github.com/aidartheklutz/MemoMate",
     open: "https://expo.dev/accounts/aidartheklutz/projects/memomate/builds/c96e95c1-2b1f-4b57-b074-801fb5582071",
   },
@@ -89,14 +98,16 @@ function ProjectsPage() {
                     </a>
                   )}
 
-                  <a
-                    href={project.open}
-                    target="_blank"
-                    className="project-button open-button"
-                  >
-                    <i className="bi bi-door-open-fill"></i>
-                    <span>Open</span>
-                  </a>
+                  {project.open && (
+                    <a
+                      href={project.open}
+                      target="_blank"
+                      className="project-button open-button"
+                    >
+                      <i className="bi bi-door-open-fill"></i>
+                      <span>Open</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

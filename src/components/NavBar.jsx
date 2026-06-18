@@ -14,7 +14,7 @@ function NavBar(props) {
 
         <div className="nav">
           <p id="navMenu" onClick={toggleDropdownMenu}>
-            <i className="bi bi-list"></i>
+            <span class="material-symbols-outlined">menu</span>
           </p>
 
           <p className="navbarLink">
