@@ -55,6 +55,39 @@ button:hover {
 /* =========================
    UTILITIES
 ========================= */
+.heading-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.heading {
+    max-width: 32rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.heading h1 {
+    margin: 0;
+    font-size: 2.3rem;
+}
+
+#heading-longer {
+    display: block;
+}
+
+#heading-shorter {
+    display: none;
+}
+
+.heading p {
+    margin: 0.35rem 0 0;
+    color: var(--pale-blue);
+}
+
 .row-or-column {
     display: flex;
     flex-direction: row;
@@ -85,6 +118,12 @@ button:hover {
 @media (max-width: 500px) {
     body, button, h1 {
         font-size: 0.7rem;
+    }
+    #heading-longer {
+        display: none;
+    }
+    #heading-shorter {
+        display: block;
     }
 }
 @media (max-width: 330px) {

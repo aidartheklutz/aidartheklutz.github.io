@@ -1,0 +1,106 @@
+.links-page {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.social-tiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-height: 3.2rem;
+    max-width: 100%;
+    padding: 0 1.1rem 0 0.35rem;
+
+    background-color: var(--blue-opaque);
+    border: 1px solid #9ab0fe38;
+    border-radius: 999px;
+
+    transition:
+        background-color 0.2s ease,
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+    color: var(--white);
+    background-color: var(--blue);
+    border-color: var(--pale-blue);
+    transform: translateY(-2px);
+}
+
+.social-link:focus-visible {
+    outline: 3px solid var(--pale-blue);
+    outline-offset: 3px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    flex: 0 0 2.5rem;
+
+    color: var(--link);
+    background-color: var(--pale-blue);
+    border-radius: 50%;
+}
+
+.social-icon i {
+    font-size: 1.15rem;
+}
+
+.social-text {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    line-height: 1.15;
+}
+
+.social-name {
+    font-weight: 700;
+}
+
+.social-handle {
+    overflow: hidden;
+    color: var(--pale-blue);
+    font-size: 0.72rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.social-link:hover .social-handle,
+.social-link:focus-visible .social-handle {
+    color: var(--white);
+}
+
+@media (max-width: 500px) {
+    .links-heading h1 {
+        font-size: 1.7rem;
+    }
+
+    .social-tiles {
+        gap: 0.55rem;
+    }
+
+    .social-link {
+        flex: 1 1 10rem;
+        min-height: 3rem;
+        padding-right: 0.85rem;
+    }
+
+    .social-icon {
+        width: 2.25rem;
+        height: 2.25rem;
+        flex-basis: 2.25rem;
+    }
+}

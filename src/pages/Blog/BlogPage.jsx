@@ -36,7 +36,13 @@ function BlogPage() {
 
       <div className="margin-wrapper">
         <div className="blog-page">
-          <h1 className="blog-title">Blog</h1>
+          <div className="heading-wrapper">
+            <div className="heading">
+              <h1 id="heading-longer">Personal Blog</h1>
+              <h1 id="heading-shorter">Blog</h1>
+              <p>Here I share stories, guides, and experiences from my life</p>
+            </div>
+          </div>
 
           <div className="blog-posts">
             {posts.map((post) => (

@@ -6,6 +6,7 @@ import BlogPage from "./pages/Blog/BlogPage";
 import CTFArticle from "./pages/Blog/content/ctf-140526/CTFArticle";
 import HistoryProjectArticle from "./pages/Blog/content/history-project-250326/HistoryProjectArticle";
 import GoodreadsChallengesArticle from "./pages/Blog/content/goodreads-challenges-040626/GoodreadsChallengesArticle";
+import LinksPage from "./pages/LinksPage/LinksPage";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Routes>
       <Route index element={<HomePage />} />
       <Route path="/projects" element={<ProjectsPage />} />
+      <Route path="/links" element={<LinksPage />} />
       <Route path="/blog" element={<BlogPage />} />
       <Route path="/blog/ctf-140526" element={<CTFArticle />} />
       <Route

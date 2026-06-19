@@ -71,7 +71,12 @@ function ProjectsPage() {
       <NavBar />
 
       <div className="margin-wrapper">
-        <h1 className="projects-title">My projects</h1>
+        <div className="heading-wrapper">
+          <div className="heading">
+            <h1>My Projects</h1>
+            <p>Stuff I've made so far</p>
+          </div>
+        </div>
         <div className="projects-grid">
           {projects.map((project) => (
             <div className="project-box" key={project.title}>
