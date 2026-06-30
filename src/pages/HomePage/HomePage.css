@@ -41,6 +41,16 @@ button {
     align-items: center;
 }
 
+/* =========================
+   SWITCH LANGUAGE
+========================= */
+.switch-language-button {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    margin-bottom: -30px;
+    margin-top: -20px;
+}
 
 /* =========================
    TEXT
@@ -50,7 +60,6 @@ button {
     font-size: 2.5rem;
     text-align: left;
 }
-
 
 /* =========================
    RACCOON
@@ -152,6 +161,12 @@ button {
     }
     .button-link {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 450px) {
+    .switch-language-button button {
+        font-size: 3vw;
     }
 }
 

@@ -2,6 +2,9 @@ import React from "react";
 import NavBar from "../../components/NavBar";
 import "./ProjectsPage.css";
 
+import { useLanguage } from "../../assets/setLanguage";
+import { LANG } from "./LanguageProjectsPage";
+
 import MemoMate from "./covers/MemoMate.png";
 import TSITools from "./covers/TSITools.png";
 import PlanetProfile from "./covers/PlanetProfile.png";
@@ -66,6 +69,9 @@ const projects = [
 ];
 
 function ProjectsPage() {
+  const [language, setLanguage] = useLanguage();
+  const lang = LANG[language];
+
   return (
     <>
       <NavBar />
@@ -73,8 +79,8 @@ function ProjectsPage() {
       <div className="margin-wrapper">
         <div className="heading-wrapper">
           <div className="heading">
-            <h1>My Projects</h1>
-            <p>Stuff I've made so far</p>
+            <h1>{lang.heading}</h1>
+            <p>{lang.description}</p>
           </div>
         </div>
         <div className="projects-grid">

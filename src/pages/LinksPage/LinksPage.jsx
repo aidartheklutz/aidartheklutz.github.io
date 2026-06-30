@@ -1,6 +1,8 @@
 import React from "react";
 import "./LinksPage.css";
 import NavBar from "../../components/NavBar";
+import { LANG } from "./LangLinksPage";
+import { useLanguage } from "../../assets/setLanguage";
 
 const socials = [
   {
@@ -60,6 +62,9 @@ const socials = [
 ];
 
 function LinksPage(props) {
+  const [language, setLanguage] = useLanguage();
+  const lang = LANG[language];
+
   return (
     <>
       <NavBar />
@@ -67,9 +72,9 @@ function LinksPage(props) {
         <main className="links-page">
           <div className="heading-wrapper">
             <div className="heading">
-              <h1 id="heading-longer">Social Media Links</h1>
-              <h1 id="heading-shorter">Links</h1>
-              <p>Various places where you can find me</p>
+              <h1 id="heading-longer">{lang.headingLonger}</h1>
+              <h1 id="heading-shorter">{lang.headingShorter}</h1>
+              <p>{lang.description}</p>
             </div>
           </div>
 
