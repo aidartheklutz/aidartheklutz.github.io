@@ -20,9 +20,9 @@ export const LANG = {
     greeting: "Привет, я Айдар!",
     description: (
       <p className="blue-link">
-        Я студент колледжа из Кыргызстана и я мечтаю стать инженером. Здесь вы
-        можете узнать немного <NavLink to="/aboutme">обо мне</NavLink>, следить
-        за моим <NavLink to="/blog">блогом</NavLink>, взглянуть на мои некоторые{" "}
+        Я студент колледжа из Кыргызстана, который мечтает стать инженером.
+        Здесь вы можете узнать немного <NavLink to="/aboutme">обо мне</NavLink>,
+        читать мой <NavLink to="/blog">блог</NavLink>, взглянуть на мои{" "}
         <NavLink to="/projects">проекты</NavLink> или найти мои{" "}
         <NavLink to="/links">соцсети</NavLink>.
       </p>

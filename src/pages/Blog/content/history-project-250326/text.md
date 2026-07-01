@@ -4,7 +4,7 @@ That said, recently our history teacher at the Technical School of Innovation, [
 
 ## Context
 
-In the first semester (fall semester), we worked on the first half of this project. Basically, we had to pick any primary source (letter, newspaper, official document, diary, interview, etc.) and write a paper listing the information it gives us, regardless of its bias or inaccuracy - our main goal was to just collect all the info provided in the primary source that describes the event or time period in any meaningful way. In the end of the project, we had to formulate a research question related to the event.
+In the first semester (fall semester), we worked on the first half of this project. Basically, we had to pick any primary source (letter, newspaper, official document, diary, interview, etc.) and write a paper listing the information it gives us, regardless of its bias or inaccuracy -- our main goal was to just collect all the info provided in the primary source that describes the event or time period in any meaningful way. In the end of the project, we had to formulate a research question related to the event.
 
 For the Primary Source Project, I picked the [letter sent by N. Khrushchev to J. F. Kennedy on October 26, 1962](https://microsites.jfklibrary.org/cmc/oct26/doc4.html) amid the Cuban Missile Crisis because of how interesing this period was to me. After all, humanity could have perished in a nuclear armageddon without their diplomatic efforts.
 
@@ -38,7 +38,7 @@ Eventually, after two evenings of reading I was ready to move on to the next ste
 
 ### Writing the essay
 
-And now it was time to finally use the collected information to write the project. My steck of highlighted papers and scribbled notes now had to be turned into an actual essay.
+And now it was time to finally use the collected information to write the project. My stack of highlighted papers and scribbled notes now had to be turned into an actual essay.
 
 Writing felt like a completely different challenge, compared to finding and reading through sources. The reading and note-taking phase was relatively simple and straightforward: I could read the documents one by one and highlight whatever I found interesting and useful. Now, however, I had to figure out a way to connect all of those pieces together.
 
@@ -46,7 +46,7 @@ The process was quite overwhelming. I had so many details in mind that I wanted 
 
 ### End result
 
-After three days of writing, I finally finished the project and uploaded it to the school platform. It turned out unreasonably huge: the final result had 5160 words, which exceeded the minimal word count of ~350 words by about 1374.3%!!! Have I overdone it? Yes, but the project was so interesting to work on that I just didn't care. Ms. Soulier jokingly called it a "mini-college thesis" when I was defending my project, which I found really funny. I successfully earned the full score.
+After three days of writing, I finally finished the project and uploaded it to the school platform. It turned out unreasonably huge: the final result had **5160 words**, which exceeded the minimal word count of ~350 words by about **1374.3%!!!** Have I overdone it? Yes, but the project was so interesting to work on that I just didn't care. Ms. Soulier jokingly called it a "mini-college thesis" when I was defending my project, which I found really funny. I successfully earned the full score.
 
 ## Conclusion
 

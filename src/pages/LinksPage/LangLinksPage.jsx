@@ -5,7 +5,7 @@ export const LANG = {
     description: "Places where you can find me",
   },
   RU: {
-    headingLonger: "Ссылки на Соцсети",
+    headingLonger: "Ссылки на соцсети",
     headingShorter: "Ссылки",
     description: "Места, где вы можете меня найти",
   },

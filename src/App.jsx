@@ -5,7 +5,6 @@ import NotFound from "./pages/NotFound/NotFound";
 import BlogPage from "./pages/Blog/BlogPage";
 import CTFArticle from "./pages/Blog/content/ctf-140526/CTFArticle";
 import HistoryProjectArticle from "./pages/Blog/content/history-project-250326/HistoryProjectArticle";
-import GoodreadsChallengesArticle from "./pages/Blog/content/goodreads-challenges-040626/GoodreadsChallengesArticle";
 import LinksPage from "./pages/LinksPage/LinksPage";
 import "./App.css";
 
@@ -20,10 +19,6 @@ function App() {
       <Route
         path="/blog/history-project-250326"
         element={<HistoryProjectArticle />}
-      />
-      <Route
-        path="/blog/goodreads-challenges-040626"
-        element={<GoodreadsChallengesArticle />}
       />
       <Route path="*" element={<NotFound />} />
     </Routes>
