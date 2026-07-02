@@ -54,6 +54,12 @@ const socials = [
     icon: "bi-threads",
   },
   {
+    name: "Hardcover",
+    handle: "@aidartheklutz",
+    link: "https://hardcover.app/@aidartheklutz",
+    icon: "bi-journal-bookmark-fill",
+  },
+  {
     name: "Goodreads",
     handle: "aidartheklutz",
     link: "https://www.goodreads.com/aidartheklutz",
