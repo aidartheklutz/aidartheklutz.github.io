@@ -1,5 +1,4 @@
 import "./HomePage.css";
-import { useState, useEffect } from "react";
 import NavBar from "../../components/NavBar";
 import raccoonDrawing from "../../assets/raccoon.png";
 import { NavLink } from "react-router";
@@ -22,8 +21,8 @@ function HomePage() {
     <>
       <NavBar />
 
-      <div className="margin-wrapper">
-        <div className="content">
+      <div className="margin-wrapper homepage-wrapper">
+        <div className="homepage-content">
           <div className="switch-language-button">
             <button onClick={handleSwitchLanguage}>
               <i className="bi bi-translate"></i> {lang.switchLang}

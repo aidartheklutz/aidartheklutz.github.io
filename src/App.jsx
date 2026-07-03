@@ -6,11 +6,14 @@ import BlogPage from "./pages/Blog/BlogPage";
 import CTFArticle from "./pages/Blog/content/ctf-140526/CTFArticle";
 import HistoryProjectArticle from "./pages/Blog/content/history-project-250326/HistoryProjectArticle";
 import LinksPage from "./pages/LinksPage/LinksPage";
+import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
 
 function App() {
   return (
-    <Routes>
+    <>
+      <ScrollToTop />
+      <Routes>
       <Route index element={<HomePage />} />
       <Route path="/projects" element={<ProjectsPage />} />
       <Route path="/links" element={<LinksPage />} />
@@ -22,6 +25,7 @@ function App() {
       />
       <Route path="*" element={<NotFound />} />
     </Routes>
+    </>
   );
 }
 
