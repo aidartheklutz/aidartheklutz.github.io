@@ -14,7 +14,6 @@ export const LANG = {
       </p>
     ),
     aboutMe: "About me",
-    switchLang: "Переключиться на русский язык",
   },
   RU: {
     greeting: "Привет, я Айдар!",
@@ -28,6 +27,5 @@ export const LANG = {
       </p>
     ),
     aboutMe: "Обо мне",
-    switchLang: "Switch to English",
   },
 };

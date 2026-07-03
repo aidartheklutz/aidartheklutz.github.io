@@ -3,6 +3,7 @@ import "./BlogPage.css";
 import NavBar from "../../components/NavBar";
 import ctfCover from "./content/ctf-140526/cover.png";
 import historyProjectCover from "./content/history-project-250326/cover.png";
+import bugTermCover from "./content/bug-term-030726/cover.png";
 import { NavLink } from "react-router";
 import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";
@@ -13,11 +14,20 @@ function BlogPage() {
 
   const posts = [
     {
+      id: 2,
+      title: lang.titles.bugTerm[0],
+      description: lang.titles.bugTerm[1],
+      image: bugTermCover,
+      category: lang.categories.story,
+      date: `3 ${lang.months.jul}, 2026`,
+      path: "/blog/bug-term-030726",
+    },
+    {
       id: 1,
       title: lang.titles.ctf[0],
       description: lang.titles.ctf[1],
       image: ctfCover,
-      category: lang.categories.story,
+      category: lang.categories.personal,
       date: `14 ${lang.months.may}, 2026`,
       path: "/blog/ctf-140526",
     },
@@ -26,7 +36,7 @@ function BlogPage() {
       title: lang.titles.historyProject[0],
       description: lang.titles.historyProject[1],
       image: historyProjectCover,
-      category: lang.categories.story,
+      category: lang.categories.personal,
       date: `25 ${lang.months.mar}, 2026`,
       path: "/blog/history-project-250326",
     },

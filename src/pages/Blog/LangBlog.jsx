@@ -4,6 +4,7 @@ export const LANG = {
     headingShorter: "Blog",
     description: "Here I share stories, guides, and experiences from my life",
     categories: {
+      personal: "JOURNAL",
       story: "STORY",
       guide: "GUIDE",
       advice: "ADVICE",
@@ -32,6 +33,10 @@ export const LANG = {
         "My Irrationally Large History Project",
         "I met the criteria. Then I kept going.",
       ],
+      bugTerm: [
+        'The Roots of the Term "Bug"',
+        "A curious story about Edison's telegraph and a moth trapped a relay.",
+      ],
     },
   },
   RU: {
@@ -39,6 +44,7 @@ export const LANG = {
     headingShorter: "Блог",
     description: "Здесь я делюсь историями, гайдами и опытом из жизни",
     categories: {
+      personal: "ДНЕВНИК",
       story: "ИСТОРИЯ",
       guide: "ГАЙД",
       advice: "СОВЕТЫ",
@@ -66,6 +72,10 @@ export const LANG = {
       historyProject: [
         "Мой огромный проект по истории",
         "Я набрал достаточно слов. Меня это не остановило.",
+      ],
+      bugTerm: [
+        'Как зародилось слово "Баг"',
+        "Интересная история о телеграфе Эдисона и застрявшей моли.",
       ],
     },
   },

@@ -16,7 +16,6 @@ import cover from "./cover_horizontal.png";
 import { useLanguage } from "../../../../assets/setLanguage";
 
 import { LANG } from "../../LangBlog";
-
 import SwitchLanguage from "../../../../components/SwitchLanguage";
 
 function CTFArticle() {
@@ -25,16 +24,15 @@ function CTFArticle() {
 
   return (
     <>
-      <title>{lang.titles.ctf[0]}</title>
+      <title>{lang.titles.bugTerm[0]}</title>
       <NavBar />
-
       <div className="margin-wrapper">
         <div className="article-page">
           <SwitchLanguage align="left" />
-          <p className="blog-category">{lang.categories.personal}</p>
-          <h1 className="article-title">{lang.titles.ctf[0]}</h1>
+          <p className="blog-category">{lang.categories.story}</p>
+          <h1 className="article-title">{lang.titles.bugTerm[0]}</h1>
 
-          <p className="article-date">25 {lang.months.mar}, 2026</p>
+          <p className="article-date">3 {lang.months.jul}, 2026</p>
 
           <img src={cover} alt="Cover" className="article-cover" />
 

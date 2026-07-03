@@ -5,7 +5,7 @@ export const LANG = {
     projects: "Projects",
     portfolio: "Portfolio",
     links: "Links",
-    switchLanguage: "RUS",
+    switchLang: "Переключиться на русский язык",
   },
   RU: {
     home: "Главная",
@@ -14,5 +14,6 @@ export const LANG = {
     portfolio: "Портфолио",
     links: "Ссылки",
     switchLanguage: "ENG",
+    switchLang: "Switch to English",
   },
 };

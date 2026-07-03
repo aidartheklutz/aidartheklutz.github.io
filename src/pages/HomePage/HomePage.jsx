@@ -4,6 +4,7 @@ import raccoonDrawing from "../../assets/raccoon.png";
 import { NavLink } from "react-router";
 import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangHomePage";
+import SwitchLanguage from "../../components/SwitchLanguage";
 
 import React from "react";
 
@@ -12,22 +13,13 @@ function HomePage() {
   const lang = LANG[language];
   console.log(language);
 
-  function handleSwitchLanguage() {
-    setLanguage(language === "EN" ? "RU" : "EN");
-    window.location.reload();
-  }
-
   return (
     <>
       <NavBar />
 
       <div className="margin-wrapper homepage-wrapper">
         <div className="homepage-content">
-          <div className="switch-language-button">
-            <button onClick={handleSwitchLanguage}>
-              <i className="bi bi-translate"></i> {lang.switchLang}
-            </button>
-          </div>
+          <SwitchLanguage />
           <div className="row-or-column">
             <div className="welcome">
               <h1 className="greeting" style={{ marginBottom: 0 }}>

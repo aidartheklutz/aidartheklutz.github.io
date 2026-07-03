@@ -103,6 +103,14 @@
     margin: 1.5rem 0;
 }
 
+.article-content small {
+    display: block;
+    text-align: center;
+    color: var(--pale-blue);
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+}
+
 .article-content code {
     background-color: var(--blue-opaque);
     padding: 0.2rem 0.4rem;

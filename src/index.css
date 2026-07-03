@@ -52,6 +52,35 @@ button:hover {
     color: var(--blue);
     cursor: pointer;
 }
+
+/* =========================
+   SWITCH LANGUAGE BUTTON
+========================= */
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-80px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.switch-language-button {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    animation: slideDown 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@media (max-width: 450px) {
+    .switch-language-button button {
+        font-size: 3vw;
+    }
+}
+
 /* =========================
    UTILITIES
 ========================= */
