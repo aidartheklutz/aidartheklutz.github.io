@@ -29,7 +29,7 @@ function CTFArticle() {
           <p className="blog-category">{lang.categories.story}</p>
           <h1 className="article-title">{lang.titles.ctf[0]}</h1>
 
-          <p className="blog-date">25 {lang.months.mar}, 2026</p>
+          <p className="article-date">25 {lang.months.mar}, 2026</p>
 
           <img src={cover} alt="Cover" className="article-cover" />
 

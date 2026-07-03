@@ -155,12 +155,18 @@
     margin: 0;
 }
 
-.blog-date {
+.blog-date, .article-date {
     color: var(--pale-blue);
 
     font-size: 0.8rem;
+}
 
+.blog-date {
     margin-bottom: 10px;
+}
+
+.article-date {
+    margin-bottom: 2.5rem;
 }
 
 
