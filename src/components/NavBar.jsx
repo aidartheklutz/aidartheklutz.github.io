@@ -1,18 +1,57 @@
 import { toggleDropdownMenu } from "./dropdown";
 import logo from "../assets/logo_small_1.svg";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router";
 import { useLanguage } from "../assets/setLanguage";
 import { LANG } from "./LangNavBar";
 
-function NavBar(props) {
-  const [language, setLanguage] = useLanguage();
+function NavBar() {
+  const [language] = useLanguage();
   const lang = LANG[language];
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+    let accumulatedDelta = 0;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const delta = currentScrollY - lastScrollY;
+
+      // Always show navbar at the very top of the page
+      if (currentScrollY <= 10) {
+        setIsVisible(true);
+        accumulatedDelta = 0;
+      } else {
+        // If scroll direction changes, reset accumulated delta
+        if ((delta > 0 && accumulatedDelta < 0) || (delta < 0 && accumulatedDelta > 0)) {
+          accumulatedDelta = 0;
+        }
+        accumulatedDelta += delta;
+
+        // Scroll down threshold to hide: 50px
+        if (accumulatedDelta > 50 && isVisible) {
+          setIsVisible(false);
+          const menu = document.getElementById("dropdownMenu");
+          if (menu) menu.classList.remove("open");
+        }
+        // Scroll up threshold to show: 15px
+        else if (accumulatedDelta < -15 && !isVisible) {
+          setIsVisible(true);
+        }
+      }
+
+      lastScrollY = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [isVisible]);
 
   return (
     <div>
       {/* NAVBAR */}
-      <div className="nav-wrapper">
+      <div className={`nav-wrapper ${isVisible ? "" : "nav-hidden"}`}>
         <NavLink to="/">
           <img src={logo} id="navLogo" alt="logo" />
         </NavLink>
