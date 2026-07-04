@@ -29,7 +29,7 @@ function CTFArticle() {
       <div className="margin-wrapper">
         <div className="article-page">
           <SwitchLanguage align="left" />
-          <p className="blog-category">{lang.categories.story}</p>
+          <p className="blog-category">{lang.categories.essay}</p>
           <h1 className="article-title">{lang.titles.bugTerm[0]}</h1>
 
           <p className="article-date">3 {lang.months.jul}, 2026</p>

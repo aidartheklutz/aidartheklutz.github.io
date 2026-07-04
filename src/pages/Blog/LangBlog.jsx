@@ -5,7 +5,7 @@ export const LANG = {
     description: "Here I share stories, guides, and experiences from my life",
     categories: {
       personal: "JOURNAL",
-      story: "STORY",
+      essay: "ESSAY",
       guide: "GUIDE",
       advice: "ADVICE",
       misc: "MISC",
@@ -37,6 +37,10 @@ export const LANG = {
         'The Roots of the Term "Bug"',
         "A curious story about Edison's telegraph and a moth trapped in a relay.",
       ],
+      eliza: [
+        "The ELIZA Effect and Modern AI Psychosis",
+        "An essay about how people can't stop assigning human qualities to chatbots.",
+      ],
     },
   },
   RU: {
@@ -45,7 +49,7 @@ export const LANG = {
     description: "Здесь я делюсь историями, гайдами и опытом из жизни",
     categories: {
       personal: "ДНЕВНИК",
-      story: "ИСТОРИЯ",
+      essay: "ЭССЕ",
       guide: "ГАЙД",
       advice: "СОВЕТЫ",
       misc: "РАЗНОЕ",
@@ -76,6 +80,10 @@ export const LANG = {
       bugTerm: [
         'Как зародилось слово "Баг"',
         "Интересная история о телеграфе Эдисона и застрявшей моли.",
+      ],
+      eliza: [
+        "Эффект Элизы и ИИ-психоз",
+        "Эссе о том, как люди не перестают присуждать человеческие качества чат-ботам.",
       ],
     },
   },

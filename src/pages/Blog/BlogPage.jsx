@@ -4,6 +4,7 @@ import NavBar from "../../components/NavBar";
 import ctfCover from "./content/ctf-140526/cover.png";
 import historyProjectCover from "./content/history-project-250326/cover.png";
 import bugTermCover from "./content/bug-term-030726/cover.png";
+import elizaCover from "./content/eliza-050726/cover.png";
 import { NavLink } from "react-router";
 import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";
@@ -14,11 +15,20 @@ function BlogPage() {
 
   const posts = [
     {
+      id: 3,
+      title: lang.titles.eliza[0],
+      description: lang.titles.eliza[1],
+      image: elizaCover,
+      category: lang.categories.essay,
+      date: `5 ${lang.months.jul}, 2026`,
+      path: "/blog/eliza-050726",
+    },
+    {
       id: 2,
       title: lang.titles.bugTerm[0],
       description: lang.titles.bugTerm[1],
       image: bugTermCover,
-      category: lang.categories.story,
+      category: lang.categories.essay,
       date: `3 ${lang.months.jul}, 2026`,
       path: "/blog/bug-term-030726",
     },

@@ -1,0 +1,55 @@
+import React from "react";
+
+import NavBar from "../../../../components/NavBar";
+
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+
+import "../../BlogPage.css";
+
+import markdown from "./text.md?raw";
+import markdownRu from "./text-ru.md?raw";
+
+import cover from "./cover_horizontal.png";
+
+import { useLanguage } from "../../../../assets/setLanguage";
+
+import { LANG } from "../../LangBlog";
+import SwitchLanguage from "../../../../components/SwitchLanguage";
+
+function ElizaArticle() {
+  const [language, setLanguage] = useLanguage();
+  const lang = LANG[language];
+
+  return (
+    <>
+      <title>{lang.titles.eliza[0]}</title>
+      <NavBar />
+      <div className="margin-wrapper">
+        <div className="article-page">
+          <SwitchLanguage align="left" />
+          <p className="blog-category">{lang.categories.essay}</p>
+          <h1 className="article-title">{lang.titles.eliza[0]}</h1>
+
+          <p className="article-date">5 {lang.months.jul}, 2026</p>
+
+          <img src={cover} alt="Cover" className="article-cover" />
+
+          <hr />
+
+          <div className="article-content">
+            <ReactMarkdown
+              remarkPlugins={[remarkGfm]}
+              rehypePlugins={[rehypeRaw]}
+            >
+              {language === "RU" ? markdownRu : markdown}
+            </ReactMarkdown>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default ElizaArticle;
