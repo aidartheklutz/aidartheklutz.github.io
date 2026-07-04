@@ -35,7 +35,7 @@ export const LANG = {
       ],
       bugTerm: [
         'The Roots of the Term "Bug"',
-        "A curious story about Edison's telegraph and a moth trapped a relay.",
+        "A curious story about Edison's telegraph and a moth trapped in a relay.",
       ],
     },
   },
