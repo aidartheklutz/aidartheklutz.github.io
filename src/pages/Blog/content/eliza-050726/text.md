@@ -20,7 +20,7 @@ The first and most popular script for ELIZA was called DOCTOR. It mimicked a Rog
 **User:** `She thinks I never do anything right.`<br>
 **ELIZA:** `Does it please you to believe you never do anything right?`<br>
 **User:** `asdklasldkwidaskd SIX SEVEN.`<br>
-**ELIZA:** `Could you elaborate on that?"` (an example of a response when it fails to identify keywords)
+**ELIZA:** `Could you elaborate on that?` (an example of a response when it fails to identify keywords)
 
 <!-- prettier-ignore-start -->
 ![ELIZA at video game museum in Berlin](/blog-pictures/blog-eliza-img2.jpg)
