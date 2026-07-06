@@ -23,7 +23,7 @@ The first and most popular script for ELIZA was called DOCTOR. It mimicked a Rog
 **ELIZA:** `Could you elaborate on that?` (an example of a response when it fails to identify keywords)
 
 <!-- prettier-ignore-start -->
-![ELIZA at video game museum in Berlin](/blog-pictures/blog-eliza-img2.jpg)
+![ELIZA at video game museum in Berlin](/blog-pictures/blog-eliza-img2.webp)
 <small>Another conversation between a human and ELIZA's DOCTOR script at Video Game Museum in Berlin. _[Image source](https://commons.wikimedia.org/wiki/File:Video_Game_Museum_in_Berlin_(44129332940).jpg)_</small>
 <!-- prettier-ignore-end -->
 
@@ -36,7 +36,7 @@ Even though everybody knew that ELIZA was not conscious, that it was nothing mor
 Weizenbaum called this the "ELIZA Effect" -- a phenomenon when people assign human qualities, such as empathy or intelligence, to a machine. There are many reasons why this simple chatbot resonated so well with its users: it provided them with a safe space and made them feel somewhat understood, which probably felt incredible for people in the 1960's.
 
 <!-- prettier-ignore-start -->
-![can't help myself robot](/blog-pictures/blog-eliza-img4.png)
+![can't help myself robot](/blog-pictures/blog-eliza-img4.webp)
 <small>"Can't help myself" was a sculpture which consisted of a robotic arm that swept up red cellulose leaking out of its inner core. Many people on social media described this sculpture as "looking tired".  _[Image source](https://commons.wikimedia.org/wiki/File:Can%27t_Help_Myself_Robot_02.jpg)_</small>
 <!-- prettier-ignore-end -->
 
@@ -64,7 +64,7 @@ Unlike a human friend, an AI will never be busy, annoyed, distracted, or disagre
 Besides AI giants like ChatGPT, Claude, or Grok, there exist websites designed directly to provide the user with the illusion of human connection. The platfrom Character AI that is used primarily for roleplaying with various user-created chatbots has over 20 million active monthly users, and the number was even higher before the app developers added a strict age restriction.
 
 <!-- prettier-ignore-start -->
-![character ai main page](/blog-pictures/blog-eliza-img0.png)
+![character ai main page](/blog-pictures/blog-eliza-img0.webp)
 <small>A screenshot of Character AI main page (**not sreenshotted by me**, just saying). _[Image source](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fditchthattextbook.com%2Fai-character-conversations%2F&ved=0CBoQ3YkBahgKEwi4hdvy0bmVAxUAAAAAHQAAAAAQxQU&opi=89978449)_</small>
 <!-- prettier-ignore-end -->
 
@@ -81,7 +81,7 @@ Unlike a trained mental health professional, a general-purpose chatbot is not de
 Researchers have begun referring to this phenomenon as **AI psychosis**, although it is not an official medical diagnosis. There is currently no evidence that AI alone causes psychosis. Instead, long conversations with an agreeable chatbot may worsen existing mental health conditions or reinforce delusions in people who are already vulnerable.
 
 <!-- prettier-ignore-start -->
-!["ChatGPT made me delusional" thumbnail](/blog-pictures/blog-eliza-img1.png)
+!["ChatGPT made me delusional" thumbnail](/blog-pictures/blog-eliza-img1.webp)
 <small>YouTuber Eddy Burback made a video titled "ChatGPT made me delusional", where, as an experiment, he pushes ChatGPT to validate increasingly absurd claims and paranoid delusions. You can watch it [here](https://youtu.be/VRjgNgJms3Q).</small>
 <!-- prettier-ignore-end -->
 
@@ -101,7 +101,7 @@ ELIZA may be gone, but the ELIZA Effect is stronger than ever.
 <h3>Slightly off-topic</h3>
 ELIZA was considered an innovation in the 1960's and its code took around 400 lines. With modern computers and programming languages, you can easily write ELIZA from scratch in less than 100 lines. As an experiment, I wrote a small parody of ELIZA using C++, which picks a random response and changes pronouns.
 
-![my C++ ELIZA parody](/blog-pictures/blog-eliza-img3.png)
+![my C++ ELIZA parody](/blog-pictures/blog-eliza-img3.webp)
 
 Additionally, I found a Python version of ELIZA on github. [Here is the link](https://gist.github.com/bobquest33/94fb3d0a4c00cd73f15b31904b681068) if you're curious.
 

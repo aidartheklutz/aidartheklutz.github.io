@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import "./BlogPage.css";
 import NavBar from "../../components/NavBar";
-import ctfCover from "./content/ctf-140526/cover.png";
-import historyProjectCover from "./content/history-project-250326/cover.png";
-import bugTermCover from "./content/bug-term-030726/cover.png";
-import elizaCover from "./content/eliza-050726/cover.png";
+import ctfCover from "./content/ctf-140526/cover.webp";
+import historyProjectCover from "./content/history-project-250326/cover_horizontal.webp";
+import bugTermCover from "./content/bug-term-030726/cover.webp";
+import elizaCover from "./content/eliza-050726/cover.webp";
 import { NavLink } from "react-router";
 import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";

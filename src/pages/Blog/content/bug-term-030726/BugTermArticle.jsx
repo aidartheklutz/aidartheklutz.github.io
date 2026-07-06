@@ -11,7 +11,7 @@ import "../../BlogPage.css";
 import markdown from "./text.md?raw";
 import markdownRu from "./text-ru.md?raw";
 
-import cover from "./cover_horizontal.png";
+import cover from "./cover_horizontal.webp";
 
 import { useLanguage } from "../../../../assets/setLanguage";
 

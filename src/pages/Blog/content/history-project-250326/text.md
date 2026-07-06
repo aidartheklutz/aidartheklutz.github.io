@@ -24,7 +24,7 @@ Then began the hunt for useful sources. I read other exchanges between Khrushche
 
 In the end, I gathered and decided to work with **FIVE** primary sources and three secondary sources, two of which were long articles and one was an interview with a Russian political science professor.
 
-![my Secondary Source Project's list of references](/blog-pictures/blog-histssp-img0.png)
+![my Secondary Source Project's list of references](/blog-pictures/blog-histssp-img0.webp)
 
 I quickly finished writing the literature review, where I briefly described how each source is relevant to the research project, and now it was time to actually begin working...
 
