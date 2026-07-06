@@ -4,7 +4,7 @@ ELIZA was designed back in 1966 by Joseph Weizenbaum, a professor emeritus of co
 
 <div class="article-side-note">
 <h3>As an aside...</h3>
-According to <a href="https://archive.computerhistory.org/resources/access/text/2022/04/102683842-05-01-acc.pdf">this 1968 manual on how to write scripts for ELIZA</a>, the system was named after Eliza Doolittle, a character from a 1913 play "Pygmalion" and 1958 musicle "My Fair Lady".
+According to <a href="https://archive.computerhistory.org/resources/access/text/2022/04/102683842-05-01-acc.pdf">this 1968 manual on how to write scripts for ELIZA</a>, the system was named after Eliza Doolittle, a character from a 1913 play "Pygmalion" and 1958 musical "My Fair Lady".
 </div>
 
 ## DOCTOR script
