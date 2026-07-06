@@ -90,7 +90,7 @@ The dot-com crash became a useful lesson. It showed that hype and user growth do
 
 ### Sources
 
-- https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df?utm_referrer=https%3A%2F%2Fwww.google.com%2F
+- https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df
 - https://www.investopedia.com/terms/d/dotcom-bubble.asp
 
 #### For the section with startup examples

@@ -90,7 +90,7 @@ Pets.com активно развивался во время бума дотко
 
 ### Источники
 
-- https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df?utm_referrer=https%3A%2F%2Fwww.google.com%2F
+- https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df
 - https://www.investopedia.com/terms/d/dotcom-bubble.asp
 
 #### Для части с примерами стартапов
