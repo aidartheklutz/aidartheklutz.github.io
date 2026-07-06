@@ -24,6 +24,7 @@ function ElizaArticle() {
 
   return (
     <>
+      <meta name="description" content={lang.titles.eliza[1]}></meta>
       <title>{lang.titles.eliza[0]}</title>
       <NavBar />
       <div className="margin-wrapper">

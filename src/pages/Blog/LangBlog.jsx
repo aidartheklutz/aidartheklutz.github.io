@@ -27,19 +27,23 @@ export const LANG = {
     titles: {
       ctf: [
         "My First CTF Experience",
-        "How I tried to learn the basics of cybersecurity in 4 days and win a CTF.",
+        "How I tried to learn the basics of cybersecurity in just four days and somehow compete in a CTF.",
       ],
       historyProject: [
         "My Irrationally Large History Project",
-        "I met the criteria. Then I kept going.",
+        "I tried to make a small history project and… accidentally ended up making a big one.",
       ],
       bugTerm: [
         'The Roots of the Term "Bug"',
-        "A curious story about Edison's telegraph and a moth trapped in a relay.",
+        "The story of one of programming's most famous terms: from Edison's telegraph to a moth trapped in a computer.",
       ],
       eliza: [
         "The ELIZA Effect and Modern AI Psychosis",
-        "An essay about how people can't stop assigning human qualities to chatbots.",
+        "Why people so easily start seeing emotions, consciousness, and personality in chatbots, even while knowing they are just algorithms.",
+      ],
+      dotcomBubble: [
+        "The Dot-com Bubble: How the Internet Drove Investors Insane",
+        'In the late 1990s, sometimes adding ".com" to a company name could make it worth billions.',
       ],
     },
   },
@@ -71,19 +75,23 @@ export const LANG = {
     titles: {
       ctf: [
         "Первый опыт в CTF-олимпиадах",
-        "Как я попытался выучить базу по кибербезопасности за 4 дня и победить в CTF.",
+        "Как я попытался освоить основы кибербезопасности всего за четыре дня и победить в CTF.",
       ],
       historyProject: [
         "Мой огромный проект по истории",
-        "Я набрал достаточно слов. Меня это не остановило.",
+        "Как я попытался сделать небольшой проект по истории и... случайно сделал большой.",
       ],
       bugTerm: [
-        'Как зародилось слово "Баг"',
-        "Интересная история о телеграфе Эдисона и застрявшей моли.",
+        'Как зародилось слово "баг"',
+        "История одного из самых известных терминов в программировании: от телеграфа Эдисона до моли в компьютере.",
       ],
       eliza: [
-        "Эффект Элизы и ИИ-психоз",
-        "Эссе о том, как люди не перестают присуждать человеческие качества чат-ботам.",
+        "Эффект Элизы и современный ИИ-психоз",
+        "Почему люди так легко начинают видеть в чат-ботах эмоции, сознание и личность, даже когда знают, что перед ними всего лишь алгоритм.",
+      ],
+      dotcomBubble: [
+        "Пузырь доткомов: как интернет свёл инвесторов с ума",
+        'В конце 1990-х порой было достаточно добавить к названию компании ".com", чтобы её оценили в миллиарды.',
       ],
     },
   },

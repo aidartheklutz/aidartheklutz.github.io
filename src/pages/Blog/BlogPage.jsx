@@ -5,6 +5,7 @@ import ctfCover from "./content/ctf-140526/cover.webp";
 import historyProjectCover from "./content/history-project-250326/cover_horizontal.webp";
 import bugTermCover from "./content/bug-term-030726/cover.webp";
 import elizaCover from "./content/eliza-050726/cover.webp";
+import dotcomBubbleCover from "./content/dotcom-bubble-060726/cover.webp";
 import { NavLink } from "react-router";
 import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";
@@ -14,6 +15,15 @@ function BlogPage() {
   const lang = LANG[language];
 
   const posts = [
+    {
+      id: 4,
+      title: lang.titles.dotcomBubble[0],
+      description: lang.titles.dotcomBubble[1],
+      image: dotcomBubbleCover,
+      category: lang.categories.essay,
+      date: `6 ${lang.months.jul}, 2026`,
+      path: "/blog/dotcom-bubble-060726",
+    },
     {
       id: 3,
       title: lang.titles.eliza[0],

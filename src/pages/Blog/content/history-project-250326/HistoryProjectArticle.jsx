@@ -25,6 +25,7 @@ function HistoryProjectArticle() {
 
   return (
     <>
+      <meta name="description" content={lang.titles.historyProject[1]}></meta>
       <title>{lang.titles.historyProject[0]}</title>
       <NavBar />
 

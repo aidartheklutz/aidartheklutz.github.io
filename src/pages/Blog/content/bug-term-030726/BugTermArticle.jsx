@@ -24,6 +24,7 @@ function CTFArticle() {
 
   return (
     <>
+      <meta name="description" content={lang.titles.bugTerm[1]}></meta>
       <title>{lang.titles.bugTerm[0]}</title>
       <NavBar />
       <div className="margin-wrapper">

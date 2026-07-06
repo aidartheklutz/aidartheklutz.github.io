@@ -16,26 +16,24 @@ import cover from "./cover_horizontal.webp";
 import { useLanguage } from "../../../../assets/setLanguage";
 
 import { LANG } from "../../LangBlog";
-
 import SwitchLanguage from "../../../../components/SwitchLanguage";
 
-function CTFArticle() {
+function DotcomBubbleArticle() {
   const [language, setLanguage] = useLanguage();
   const lang = LANG[language];
 
   return (
     <>
-      <meta name="description" content={lang.titles.ctf[1]}></meta>
-      <title>{lang.titles.ctf[0]}</title>
+      <meta name="description" content={lang.titles.dotcomBubble[1]}></meta>
+      <title>{lang.titles.dotcomBubble[0]}</title>
       <NavBar />
-
       <div className="margin-wrapper">
         <div className="article-page">
           <SwitchLanguage align="left" />
-          <p className="blog-category">{lang.categories.personal}</p>
-          <h1 className="article-title">{lang.titles.ctf[0]}</h1>
+          <p className="blog-category">{lang.categories.essay}</p>
+          <h1 className="article-title">{lang.titles.dotcomBubble[0]}</h1>
 
-          <p className="article-date">25 {lang.months.mar}, 2026</p>
+          <p className="article-date">6 {lang.months.jul}, 2026</p>
 
           <img src={cover} alt="Cover" className="article-cover" />
 
@@ -55,4 +53,4 @@ function CTFArticle() {
   );
 }
 
-export default CTFArticle;
+export default DotcomBubbleArticle;

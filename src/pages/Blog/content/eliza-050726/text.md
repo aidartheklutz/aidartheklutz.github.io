@@ -33,7 +33,7 @@ As you can see, ELIZA just encourages the user to continue speaking without real
 
 Even though everybody knew that ELIZA was not conscious, that it was nothing more than a program with scripted responses, people, including Weizenbaum's colleagues at MIT, still treated the program as if it understood their problems and emotions. The users trusted the program with their deepest secrets, thinking its responses were thoughtful rather than a primitive script pattern. Joseph Weizenbaum was shocked when his own secretary once wanted to have a private conversation with ELIZA and asked him to leave the room.
 
-Weizenbaum called this the "ELIZA Effect" -- a phenomenon when people assign human qualities, such as empathy or intelligence, to a machine. There are many reasons why this simple chatbot resonated so well with its users: it provided them with a safe space and made them feel somewhat understood, which probably felt incredible for people in the 1960's.
+Weizenbaum called this the "ELIZA Effect" -- a phenomenon when people assign human qualities, such as empathy or intelligence, to a machine. There are many reasons why this simple chatbot resonated so well with its users: it provided them with a safe space and made them feel somewhat understood, which probably felt incredible for people in the 1960s.
 
 <!-- prettier-ignore-start -->
 ![can't help myself robot](/blog-pictures/blog-eliza-img4.webp)
@@ -51,7 +51,7 @@ People trusted ELIZA with their deepest secrets and poured their hearts out to a
 
 ### Why people trust AI
 
-People now trust AI chatbots for all the same reasons people trusted ELIZA in the 1960's. An AI will never judge you and can provide you with a safe space. It is always there to you and share helpful advice on how to resolve your problems. More and more people turn to AI for emotional support, sometimes even using AI as a therapist.
+People now trust AI chatbots for all the same reasons people trusted ELIZA in the 1960s. An AI will never judge you and can provide you with a safe space. It is always there to you and share helpful advice on how to resolve your problems. More and more people turn to AI for emotional support, sometimes even using AI as a therapist.
 
 Sure, it is great to have a personal assistant in your pocket that can "listen" to your complaints and give you a response like "You are awesome. And honestly? Vibes ✨". However, it is crucial to understand that machines will never replace real human connection and therapy, they can only pretend like they can. Modern AI models, including ChatGPT and Claude, are trained to prioritize user satisfaction to ensure that the user will come back and keep using the chatbot (which fuels revenue).
 
@@ -99,7 +99,7 @@ ELIZA may be gone, but the ELIZA Effect is stronger than ever.
 
 <div class="article-side-note">
 <h3>Slightly off-topic</h3>
-ELIZA was considered an innovation in the 1960's and its code took around 400 lines. With modern computers and programming languages, you can easily write ELIZA from scratch in less than 100 lines. As an experiment, I wrote a small parody of ELIZA using C++, which picks a random response and changes pronouns.
+ELIZA was considered an innovation in the 1960s and its code took around 400 lines. With modern computers and programming languages, you can easily write ELIZA from scratch in less than 100 lines. As an experiment, I wrote a small parody of ELIZA using C++, which picks a random response and changes pronouns.
 
 ![my C++ ELIZA parody](/blog-pictures/blog-eliza-img3.webp)
 

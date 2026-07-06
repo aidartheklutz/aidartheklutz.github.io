@@ -7,6 +7,7 @@ import CTFArticle from "./pages/Blog/content/ctf-140526/CTFArticle";
 import HistoryProjectArticle from "./pages/Blog/content/history-project-250326/HistoryProjectArticle";
 import BugTermArticle from "./pages/Blog/content/bug-term-030726/BugTermArticle";
 import ElizaArticle from "./pages/Blog/content/eliza-050726/ElizaArticle";
+import DotcomBubbleArticle from "./pages/Blog/content/dotcom-bubble-060726/DotcomBubbleArticle";
 import LinksPage from "./pages/LinksPage/LinksPage";
 import ScrollToTop from "./components/ScrollToTop";
 import "./App.css";
@@ -27,6 +28,10 @@ function App() {
         />
         <Route path="/blog/bug-term-030726" element={<BugTermArticle />} />
         <Route path="/blog/eliza-050726" element={<ElizaArticle />} />
+        <Route
+          path="/blog/dotcom-bubble-060726"
+          element={<DotcomBubbleArticle />}
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </>
