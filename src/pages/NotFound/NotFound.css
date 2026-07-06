@@ -9,6 +9,7 @@ h1 {
 
 button {
     margin-bottom: 60px;
+    border-radius: 999999px;
 }
 
 @media (max-width: 500px) {

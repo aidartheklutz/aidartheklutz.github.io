@@ -75,8 +75,15 @@ button:hover {
     animation: slideDown 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
 
+.switch-language-button button {
+    padding: 15px 25px;
+    border-radius: 999999px;
+    font-size: 0.7em;
+}
+
 @media (max-width: 450px) {
     .switch-language-button button {
+        padding: 10px 20px;
         font-size: 3vw;
     }
 }

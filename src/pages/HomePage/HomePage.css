@@ -93,8 +93,8 @@ button {
     font-size: 0.8rem;
     background-color: var(--blue);
     border: none;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
+    border-radius: 999999px;
+    padding: 10px 20px;
     transition: color 0.3s ease;
 }
 
@@ -145,13 +145,17 @@ button {
     .raccoon {
         height: 18vw;
     }
+    .socials-tray1 {
+        gap: 5vw;
+        font-size: 22.5px;
+    }
 }
 
 @media (max-width: 720px) {
     .greeting {
         text-align: center;
     }
-    .welcome {
+    .welcome {  
         text-align: center;
         max-width: none;
     }
