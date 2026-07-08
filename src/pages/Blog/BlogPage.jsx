@@ -1,66 +1,15 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./BlogPage.css";
 import NavBar from "../../components/NavBar";
-import ctfCover from "./content/ctf-140526/cover.webp";
-import historyProjectCover from "./content/history-project-250326/cover_horizontal.webp";
-import bugTermCover from "./content/bug-term-030726/cover.webp";
-import elizaCover from "./content/eliza-050726/cover.webp";
-import dotcomBubbleCover from "./content/dotcom-bubble-060726/cover.webp";
 import { NavLink } from "react-router";
 import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";
+import { BLOG_POSTS, getLocalizedPost } from "./blogPosts";
 
 function BlogPage() {
-  const [language, setLanguage] = useLanguage();
+  const [language] = useLanguage();
   const lang = LANG[language];
-
-  const posts = [
-    {
-      id: 4,
-      title: lang.titles.dotcomBubble[0],
-      description: lang.titles.dotcomBubble[1],
-      image: dotcomBubbleCover,
-      category: lang.categories.essay,
-      date: `6 ${lang.months.jul}, 2026`,
-      path: "/blog/dotcom-bubble-060726",
-    },
-    {
-      id: 3,
-      title: lang.titles.eliza[0],
-      description: lang.titles.eliza[1],
-      image: elizaCover,
-      category: lang.categories.essay,
-      date: `5 ${lang.months.jul}, 2026`,
-      path: "/blog/eliza-050726",
-    },
-    {
-      id: 2,
-      title: lang.titles.bugTerm[0],
-      description: lang.titles.bugTerm[1],
-      image: bugTermCover,
-      category: lang.categories.essay,
-      date: `3 ${lang.months.jul}, 2026`,
-      path: "/blog/bug-term-030726",
-    },
-    {
-      id: 1,
-      title: lang.titles.ctf[0],
-      description: lang.titles.ctf[1],
-      image: ctfCover,
-      category: lang.categories.personal,
-      date: `14 ${lang.months.may}, 2026`,
-      path: "/blog/ctf-140526",
-    },
-    {
-      id: 0,
-      title: lang.titles.historyProject[0],
-      description: lang.titles.historyProject[1],
-      image: historyProjectCover,
-      category: lang.categories.personal,
-      date: `25 ${lang.months.mar}, 2026`,
-      path: "/blog/history-project-250326",
-    },
-  ];
+  const posts = BLOG_POSTS.map((post) => getLocalizedPost(post, lang));
 
   return (
     <>
@@ -79,13 +28,13 @@ function BlogPage() {
           <div className="blog-posts">
             {posts.map((post) => (
               <NavLink to={post.path} className="blog-post-tab" key={post.id}>
-                <img src={post.image} alt={post.title} className="blog-cover" />
+                <img src={post.cover} alt={post.title} className="blog-cover" />
 
                 <div className="blog-post-info">
                   <div className="blog-post-meta">
                     <p className="blog-category">{post.category}</p>
 
-                    <p className="blog-date">{post.date}</p>
+                    <p className="blog-date">{post.dateLabel}</p>
                   </div>
 
                   <h2 className="blog-post-title">{post.title}</h2>
