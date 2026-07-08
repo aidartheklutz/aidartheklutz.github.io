@@ -22,7 +22,22 @@ import dotcomBubbleArticleCover from "./content/dotcom-bubble-060726/cover_horiz
 import dotcomBubbleMarkdown from "./content/dotcom-bubble-060726/text.md?raw";
 import dotcomBubbleMarkdownRu from "./content/dotcom-bubble-060726/text-ru.md?raw";
 
+import emojiHistoryCover from "./content/emoji-history-080726/cover_horizontal.webp";
+import emojiHistoryMarkdown from "./content/emoji-history-080726/text.md?raw";
+import emojiHistoryMarkdownRu from "./content/emoji-history-080726/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 5,
+    slug: "emoji-history-080726",
+    titleKey: "emojiHistory",
+    categoryKey: "essay",
+    date: { day: 8, monthKey: "jul", year: 2026 },
+    cover: emojiHistoryCover,
+    articleCover: emojiHistoryCover,
+    markdown: emojiHistoryMarkdown,
+    markdownRu: emojiHistoryMarkdownRu,
+  },
   {
     id: 4,
     slug: "dotcom-bubble-060726",

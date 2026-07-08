@@ -45,6 +45,10 @@ export const LANG = {
         "The Dot-com Bubble: How the Internet Drove Investors Insane",
         "In the late 1990s, sometimes adding «.com» to a company name could make it worth billions.",
       ],
+      emojiHistory: [
+        "The History of Emoji from :-) to (≧▽≦) to 🤑",
+        "From sideways smileys to colorful emoji: a brief history of how humans learned to express emotions online.",
+      ],
     },
   },
   RU: {
@@ -92,6 +96,10 @@ export const LANG = {
       dotcomBubble: [
         "Пузырь доткомов: как интернет свёл инвесторов с ума",
         "В конце 1990-х порой было достаточно добавить к названию компании «.com», чтобы её оценили в миллиарды.",
+      ],
+      emojiHistory: [
+        "История эмодзи от :-) до (≧▽≦) до 🤑",
+        "От повёрнутых смайликов до цветных эмодзи: краткая история того, как люди научились выражать эмоции в интернете.",
       ],
     },
   },
