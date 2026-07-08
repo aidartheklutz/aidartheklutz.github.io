@@ -3,6 +3,7 @@ import { useParams } from "react-router";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
+import smartypants from "remark-smartypants";
 
 import NavBar from "../../components/NavBar";
 import SwitchLanguage from "../../components/SwitchLanguage";
@@ -49,7 +50,18 @@ function BlogArticle() {
 
           <div className="article-content">
             <ReactMarkdown
-              remarkPlugins={[remarkGfm]}
+              remarkPlugins={[
+                remarkGfm,
+                [
+                  smartypants,
+                  {
+                    openingQuotes: { double: "«", single: "‹" },
+                    closingQuotes: { double: "»", single: "›" },
+                    dashes: "oldschool",
+                    ellipses: false,
+                  },
+                ],
+              ]}
               rehypePlugins={[rehypeRaw]}
             >
               {markdown}

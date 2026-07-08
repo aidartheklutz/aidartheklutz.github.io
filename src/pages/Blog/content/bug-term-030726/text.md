@@ -18,9 +18,9 @@ The term "bug" appeared in Edison's notebooks in 1876 and after that he used it 
 
 ##### Thomas Edison's letters to Theodore Puskas, the Western Union president
 
-> _"You were partly correct, I did find a ‘bug’ in my apparatus, but it was not in the telephone proper. It was of the genus ‘callbellum’ The insect appears to find conditions for its existence in all call apparatus of Telephones."_
+> _"You were partly correct, I did find a ‘bug’ in my apparatus, but it was not in the telephone proper. It was of the genus ‘callbellum’ The insect appears to find conditions for its existence in all call apparatus of Telephones"_
 
-> _"This thing gives out and then that. ‘Bug’ -- as such little faults and difficulties are called -- show themselves, and months of anxious watching, study, and labor are requisite before commercial success -- or failure -- is certainly reached."_
+> _"This thing gives out and then that. ‘Bug’ -- as such little faults and difficulties are called -- show themselves, and months of anxious watching, study, and labor are requisite before commercial success -- or failure -- is certainly reached"_
 
 ##### A [1916 article](https://books.google.kg/books?id=BJEmAQAAIAAJ&pg=PA625&lpg=PA625) about Edison's team of researchers ("Insomnia Squad")
 
