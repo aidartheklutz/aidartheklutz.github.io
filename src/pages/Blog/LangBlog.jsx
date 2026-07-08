@@ -43,7 +43,7 @@ export const LANG = {
       ],
       dotcomBubble: [
         "The Dot-com Bubble: How the Internet Drove Investors Insane",
-        'In the late 1990s, sometimes adding ".com" to a company name could make it worth billions.',
+        "In the late 1990s, sometimes adding «.com» to a company name could make it worth billions.",
       ],
     },
   },
@@ -91,7 +91,7 @@ export const LANG = {
       ],
       dotcomBubble: [
         "Пузырь доткомов: как интернет свёл инвесторов с ума",
-        'В конце 1990-х порой было достаточно добавить к названию компании ".com", чтобы её оценили в миллиарды.',
+        "В конце 1990-х порой было достаточно добавить к названию компании «.com», чтобы её оценили в миллиарды.",
       ],
     },
   },

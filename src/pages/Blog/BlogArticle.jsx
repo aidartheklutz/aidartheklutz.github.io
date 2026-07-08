@@ -55,8 +55,8 @@ function BlogArticle() {
                 [
                   smartypants,
                   {
-                    openingQuotes: { double: "«", single: "‹" },
-                    closingQuotes: { double: "»", single: "›" },
+                    openingQuotes: { double: "«", single: "'" },
+                    closingQuotes: { double: "»", single: "'" },
                     dashes: "oldschool",
                     ellipses: false,
                   },
