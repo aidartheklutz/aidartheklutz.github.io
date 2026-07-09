@@ -34,7 +34,7 @@ export const LANG = {
         "I tried to make a small history project and… accidentally ended up making a big one.",
       ],
       bugTerm: [
-        'The Roots of the Term "Bug"',
+        "The Roots of the Term «Bug»",
         "The story of one of programming's most famous terms: from Edison's telegraph to a moth trapped in a computer.",
       ],
       eliza: [
@@ -86,7 +86,7 @@ export const LANG = {
         "Как я попытался сделать небольшой проект по истории и... случайно сделал большой.",
       ],
       bugTerm: [
-        'Как зародилось слово "баг"',
+        "Как зародилось слово «баг»",
         "История одного из самых известных терминов в программировании: от телеграфа Эдисона до моли в компьютере.",
       ],
       eliza: [

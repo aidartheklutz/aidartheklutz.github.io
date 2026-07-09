@@ -63,7 +63,7 @@ This online toy store went public in 1999, and its market capitalization soared 
 
 ## Market Crash
 
-However, any financial bubble eventually bursts. Several factors contributed to this at once:
+Any financial bubble eventually bursts. Several factors contributed to this at once:
 
 - **The economy of Japan, the second-largest economy in the world at the time, entered a downturn.** Investors began to treat risky assets, including technology stocks, more cautiously.
 
