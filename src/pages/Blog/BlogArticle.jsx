@@ -71,19 +71,18 @@ function BlogArticle() {
 
                   return !inline && match ? (
                     <SyntaxHighlighter
+                      className="blog-code"
                       style={nightOwl}
                       language={match[1]}
                       showLineNumbers
                       wrapLongLines
                       customStyle={{
-                        fontSize: "0.8rem",
-                        borderRadius: "10px",
-                        padding: "1rem",
+                        fontSize: "0.85rem",
                       }}
-                      lineNumberStyle={{
-                        fontSize: "0.8rem",
-                        opacity: 0.5,
-                        minWidth: "1em",
+                      codeTagProps={{
+                        style: {
+                          fontSize: "0.85rem",
+                        },
                       }}
                     >
                       {String(children).replace(/\n$/, "")}
