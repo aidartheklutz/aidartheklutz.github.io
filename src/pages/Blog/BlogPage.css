@@ -1,3 +1,15 @@
+.article-content pre {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .article-content pre {
+    padding: 0rem !important;
+    border-radius: 8px;
+  }
+}
+
 /* =========================
    BLOG PAGE
 ========================= */

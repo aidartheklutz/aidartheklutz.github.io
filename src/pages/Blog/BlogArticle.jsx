@@ -4,6 +4,8 @@ import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import rehypeRaw from "rehype-raw";
 import smartypants from "remark-smartypants";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { nightOwl } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 import NavBar from "../../components/NavBar";
 import SwitchLanguage from "../../components/SwitchLanguage";
@@ -12,6 +14,7 @@ import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";
 import { getBlogPostBySlug, getLocalizedPost } from "./blogPosts";
 import "./BlogPage.css";
+import { shadesOfPurple } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function BlogArticle() {
   const { slug } = useParams();
@@ -62,6 +65,34 @@ function BlogArticle() {
                   },
                 ],
               ]}
+              components={{
+                code({ inline, className, children }) {
+                  const match = /language-(\w+)/.exec(className || "");
+
+                  return !inline && match ? (
+                    <SyntaxHighlighter
+                      style={nightOwl}
+                      language={match[1]}
+                      showLineNumbers
+                      wrapLongLines
+                      customStyle={{
+                        fontSize: "0.8rem",
+                        borderRadius: "10px",
+                        padding: "1rem",
+                      }}
+                      lineNumberStyle={{
+                        fontSize: "0.8rem",
+                        opacity: 0.5,
+                        minWidth: "1em",
+                      }}
+                    >
+                      {String(children).replace(/\n$/, "")}
+                    </SyntaxHighlighter>
+                  ) : (
+                    <code className={className}>{children}</code>
+                  );
+                },
+              }}
               rehypePlugins={[rehypeRaw]}
             >
               {markdown}
