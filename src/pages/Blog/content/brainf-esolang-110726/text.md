@@ -155,7 +155,7 @@ Brainf\*ck is one of the clearest examples of how programming can exist outside 
 
 Programming is not only about solving problems efficiently, but also about understanding how computers work, exploring unusual concepts, and sometimes creating something simply because it is interesting. In a world where programming languages are usually designed to make development easier, Brainf\*ck, as well as many other esolangs, stand out by doing the exact opposite.
 
-You can read more about esoteric programming languages on [Esolang Wiki](https://esolangs.org/wiki/Main_Page). It has a really large and awesome community.
+You can read more about esoteric programming languages on [Esolang Wiki](https://esolangs.org/wiki/Main_Page). It has a really awesome community.
 
 ---
 
