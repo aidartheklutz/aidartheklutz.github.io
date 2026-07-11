@@ -112,7 +112,7 @@ This program increases a memory cell until it reaches the value needed for the l
 print("A")
 ```
 
-Now imagine how much time a program that simply prints words would look like in Brainf\*ck. The example below outputs "Hello, World!" to the console:
+Now imagine how much time it would take to write a program that simply prints words in Brainf\*ck. The example below outputs "Hello, World!" to the console:
 
 ```brainfuck
 >++++++++[<+++++++++>-]<.
