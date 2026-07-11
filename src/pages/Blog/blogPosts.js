@@ -26,7 +26,23 @@ import emojiHistoryCover from "./content/emoji-history-080726/cover_horizontal.w
 import emojiHistoryMarkdown from "./content/emoji-history-080726/text.md?raw";
 import emojiHistoryMarkdownRu from "./content/emoji-history-080726/text-ru.md?raw";
 
+import brainfCover from "./content/brainf-esolang-110726/cover.png";
+import brainfArticleCover from "./content/brainf-esolang-110726/cover_horizontal.webp";
+import brainfMarkdown from "./content/brainf-esolang-110726/text.md?raw";
+import brainfMarkdownRu from "./content/brainf-esolang-110726/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 6,
+    slug: "brainf-esolang-110726",
+    titleKey: "brainf",
+    categoryKey: "essay",
+    date: { day: 11, monthKey: "jul", year: 2026 },
+    cover: brainfCover,
+    articleCover: brainfArticleCover,
+    markdown: brainfMarkdown,
+    markdownRu: brainfMarkdownRu,
+  },
   {
     id: 5,
     slug: "emoji-history-080726",

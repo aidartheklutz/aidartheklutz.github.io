@@ -49,6 +49,10 @@ export const LANG = {
         "The History of Emoji from :-) to (≧▽≦) to 🤑",
         "From sideways smileys to colorful emoji: a brief history of how humans learned to express emotions online.",
       ],
+      brainf: [
+        "Brainf*ck – the Weirdest Coding Language",
+        "A language with no variables, no functions, and no mercy for the programmer.",
+      ],
     },
   },
   RU: {
@@ -100,6 +104,10 @@ export const LANG = {
       emojiHistory: [
         "История эмодзи от :-) до (≧▽≦) до 🤑",
         "От повёрнутых смайликов до цветных эмодзи: краткая история того, как люди научились выражать эмоции в интернете.",
+      ],
+      brainf: [
+        "Brainf*ck – самый странный язык программирования",
+        "Язык без переменных, функций и жалости к программисту.",
       ],
     },
   },
