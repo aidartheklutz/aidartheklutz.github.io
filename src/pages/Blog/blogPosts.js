@@ -31,7 +31,23 @@ import brainfArticleCover from "./content/brainf-esolang-110726/cover_horizontal
 import brainfMarkdown from "./content/brainf-esolang-110726/text.md?raw";
 import brainfMarkdownRu from "./content/brainf-esolang-110726/text-ru.md?raw";
 
+import anomCover from "./content/anom-130726/cover_horizontal.webp";
+import anomArticleCover from "./content/anom-130726/cover_horizontal.webp";
+import anomMarkdown from "./content/anom-130726/text.md?raw";
+import anomMarkdownRu from "./content/anom-130726/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 7,
+    slug: "anom-150726",
+    titleKey: "anom",
+    categoryKey: "essay",
+    date: { day: 15, monthKey: "jul", year: 2026 },
+    cover: anomCover,
+    articleCover: anomArticleCover,
+    markdown: anomMarkdown,
+    markdownRu: anomMarkdownRu,
+  },
   {
     id: 6,
     slug: "brainf-esolang-110726",

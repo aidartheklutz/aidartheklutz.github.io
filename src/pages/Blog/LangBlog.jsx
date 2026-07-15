@@ -53,6 +53,10 @@ export const LANG = {
         "Brainf*ck – the Weirdest Coding Language",
         "A language with no variables, no functions, and no mercy for the programmer.",
       ],
+      anom: [
+        "ΛNØM: The Smartphone That Worked for the FBI",
+        "How the FBI secretly ran an encrypted phone company and took down criminal empires worldwide.",
+      ],
     },
   },
   RU: {
@@ -108,6 +112,10 @@ export const LANG = {
       brainf: [
         "Brainf*ck – самый странный язык программирования",
         "Язык без переменных, функций и жалости к программисту.",
+      ],
+      anom: [
+        "ΛNØM: смартфон, который работал на ФБР",
+        "Как ФБР тайно управляло компанией зашифрованных телефонов и уничтожило криминальные империи по всему миру.",
       ],
     },
   },
