@@ -16,6 +16,31 @@ import { getBlogPostBySlug, getLocalizedPost } from "./blogPosts";
 import "./BlogPage.css";
 import { shadesOfPurple } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
+function calculateReadingTime(markdownText) {
+  if (!markdownText) return 0;
+
+  // Remove code blocks
+  let cleanText = markdownText.replace(/```[\s\S]*?```/g, "");
+  // Remove inline code
+  cleanText = cleanText.replace(/`[^`]+`/g, "");
+  // Remove markdown images
+  cleanText = cleanText.replace(/!\[.*?\]\(.*?\)/g, "");
+  // Remove markdown links but keep the link text
+  cleanText = cleanText.replace(/\[(.*?)\]\(.*?\)/g, "$1");
+  // Remove HTML tags
+  cleanText = cleanText.replace(/<[^>]+>/g, "");
+
+  // Count words
+  const words = cleanText
+    .trim()
+    .split(/\s+/)
+    .filter((word) => word.length > 0).length;
+
+  // Average reading speed: 200 words per minute
+  const wpm = 200;
+  return Math.ceil(words / wpm);
+}
+
 function BlogArticle() {
   const { slug } = useParams();
   const [language] = useLanguage();
@@ -28,6 +53,7 @@ function BlogArticle() {
 
   const localizedPost = getLocalizedPost(post, lang);
   const markdown = language === "RU" ? post.markdownRu : post.markdown;
+  const readingTime = calculateReadingTime(markdown) || 1;
 
   return (
     <>
@@ -42,6 +68,9 @@ function BlogArticle() {
           <h1 className="article-title">{localizedPost.title}</h1>
 
           <p className="article-date">{localizedPost.dateLabel}</p>
+          <p className="article-reading-time">
+            {readingTime} {lang.readingTime}
+          </p>
 
           <img
             src={localizedPost.articleCover}

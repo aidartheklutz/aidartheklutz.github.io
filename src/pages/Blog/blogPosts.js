@@ -36,7 +36,23 @@ import anomArticleCover from "./content/anom-130726/cover_horizontal.webp";
 import anomMarkdown from "./content/anom-130726/text.md?raw";
 import anomMarkdownRu from "./content/anom-130726/text-ru.md?raw";
 
+import httpStatusCodesCover from "./content/http-status-codes-170726/cover_horizontal.webp";
+import httpStatusCodesArticleCover from "./content/http-status-codes-170726/cover_horizontal.webp";
+import httpStatusCodesMarkdown from "./content/http-status-codes-170726/text.md?raw";
+import httpStatusCodesMarkdownRu from "./content/http-status-codes-170726/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 8,
+    slug: "http-status-codes-170726",
+    titleKey: "httpStatusCodes",
+    categoryKey: "explainer",
+    date: { day: 17, monthKey: "jul", year: 2026 },
+    cover: httpStatusCodesCover,
+    articleCover: httpStatusCodesArticleCover,
+    markdown: httpStatusCodesMarkdown,
+    markdownRu: httpStatusCodesMarkdownRu,
+  },
   {
     id: 7,
     slug: "anom-150726",

@@ -3,10 +3,12 @@ export const LANG = {
     headingLonger: "Personal Blog",
     headingShorter: "Blog",
     description: "Here I share stories, guides, and experiences from my life",
+    readingTime: "min read",
     categories: {
       personal: "JOURNAL",
       essay: "ESSAY",
       guide: "GUIDE",
+      explainer: "EXPLAINER",
       advice: "ADVICE",
       misc: "MISC",
     },
@@ -57,17 +59,23 @@ export const LANG = {
         "ΛNØM: The Smartphone That Worked for the FBI",
         "How the FBI secretly ran an encrypted phone company and took down criminal empires worldwide.",
       ],
+      httpStatusCodes: [
+        "A Hitchhiker's Guide to HTTP Status Codes",
+        "A beginner-friendly explanation of the system that helps websites respond to every request.",
+      ],
     },
   },
   RU: {
     headingLonger: "Личный блог",
     headingShorter: "Блог",
     description: "Здесь я делюсь историями, гайдами и опытом из жизни",
+    readingTime: "мин чтения",
     categories: {
       personal: "ДНЕВНИК",
       essay: "ЭССЕ",
       guide: "ГАЙД",
       advice: "СОВЕТЫ",
+      explainer: "РАЗБОР",
       misc: "РАЗНОЕ",
     },
     months: {
@@ -116,6 +124,10 @@ export const LANG = {
       anom: [
         "ΛNØM: смартфон, который работал на ФБР",
         "Как ФБР тайно управляло компанией зашифрованных телефонов и уничтожило криминальные империи по всему миру.",
+      ],
+      httpStatusCodes: [
+        "Руководство по HTTP-статусам для начинающих",
+        "Простое объяснение системы, которая помогает сайтам отвечать на каждый запрос пользователя.",
       ],
     },
   },
