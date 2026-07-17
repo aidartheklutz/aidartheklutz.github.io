@@ -127,7 +127,7 @@
 
 <div className="article-side-note">
 <h3>К слову...</h3>
-Если хотите изучить HTTP-коды состояния более весело, загляните на <a href="https://http.cat/" target=_none>HTTP Cats</a>. Этот сайт присваивает забавное изображение кота каждому коду состояния.
+Если хотите изучить HTTP-коды состояния в более весёлой форме, загляните на <a href="https://http.cat/" target=_none>HTTP Cats</a>. Этот сайт присваивает забавное изображение кота каждому коду состояния.
 
 ![HTTP Cats screenshot](/blog-pictures/blog-http-status-codes-img7.webp)
 
