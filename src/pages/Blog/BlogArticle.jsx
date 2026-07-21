@@ -14,7 +14,6 @@ import { useLanguage } from "../../assets/setLanguage";
 import { LANG } from "./LangBlog";
 import { getBlogPostBySlug, getLocalizedPost } from "./blogPosts";
 import "./BlogPage.css";
-import { shadesOfPurple } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 function calculateReadingTime(markdownText) {
   if (!markdownText) return 0;

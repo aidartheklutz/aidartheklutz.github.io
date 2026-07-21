@@ -9,6 +9,7 @@ export const LANG = {
       essay: "ESSAY",
       guide: "GUIDE",
       explainer: "EXPLAINER",
+      opinion: "OPINION",
       advice: "ADVICE",
       misc: "MISC",
     },
@@ -63,6 +64,10 @@ export const LANG = {
         "A Hitchhiker's Guide to HTTP Status Codes",
         "A beginner-friendly explanation of the system that helps websites respond to every request.",
       ],
+      mbti: [
+        "MBTI: The Popular Personality Test That Promises Too Much",
+        "How four letters became a new horoscope for millions of people and why simple personality labels can be misleading.",
+      ],
     },
   },
   RU: {
@@ -76,6 +81,7 @@ export const LANG = {
       guide: "ГАЙД",
       advice: "СОВЕТЫ",
       explainer: "РАЗБОР",
+      opinion: "МНЕНИЕ",
       misc: "РАЗНОЕ",
     },
     months: {
@@ -128,6 +134,10 @@ export const LANG = {
       httpStatusCodes: [
         "Руководство по HTTP-статусам для начинающих",
         "Простое объяснение системы, которая помогает сайтам отвечать на каждый запрос пользователя.",
+      ],
+      mbti: [
+        "MBTI: популярный тест личности, который слишком многое обещает",
+        "Как четыре буквы стали новым гороскопом для миллионов людей и почему простые ярлыки личности могут быть обманчивыми.",
       ],
     },
   },

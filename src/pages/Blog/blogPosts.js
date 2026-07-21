@@ -41,7 +41,23 @@ import httpStatusCodesArticleCover from "./content/http-status-codes-170726/cove
 import httpStatusCodesMarkdown from "./content/http-status-codes-170726/text.md?raw";
 import httpStatusCodesMarkdownRu from "./content/http-status-codes-170726/text-ru.md?raw";
 
+import mbtiCover from "./content/mbti-210726/cover_horizontal.webp";
+import mbtiArticleCover from "./content/mbti-210726/cover_horizontal.webp";
+import mbtiMarkdown from "./content/mbti-210726/text.md?raw";
+import mbtiMarkdownRu from "./content/mbti-210726/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 8,
+    slug: "mbti-210726",
+    titleKey: "mbti",
+    categoryKey: "essay",
+    date: { day: 21, monthKey: "jul", year: 2026 },
+    cover: mbtiCover,
+    articleCover: mbtiArticleCover,
+    markdown: mbtiMarkdown,
+    markdownRu: mbtiMarkdownRu,
+  },
   {
     id: 8,
     slug: "http-status-codes-170726",
