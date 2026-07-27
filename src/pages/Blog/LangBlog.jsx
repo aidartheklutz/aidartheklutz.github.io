@@ -9,6 +9,7 @@ export const LANG = {
       essay: "ESSAY",
       guide: "GUIDE",
       explainer: "EXPLAINER",
+      roundup: "ROUNDUP",
       opinion: "OPINION",
       advice: "ADVICE",
       misc: "MISC",
@@ -68,6 +69,10 @@ export const LANG = {
         "MBTI: The Popular Personality Test That Promises Too Much",
         "How four letters became a new horoscope for millions of people and why simple personality labels can be misleading.",
       ],
+      doom: [
+        "It Runs DOOM: The Craziest Fan Ports of the 1993 Classic",
+        "Eight fan projects that turn everyday objects (and even living cells) into makeshift DOOM machines.",
+      ],
     },
   },
   RU: {
@@ -81,6 +86,7 @@ export const LANG = {
       guide: "ГАЙД",
       advice: "СОВЕТЫ",
       explainer: "РАЗБОР",
+      roundup: "ПОДБОРКА",
       opinion: "МНЕНИЕ",
       misc: "РАЗНОЕ",
     },
@@ -138,6 +144,10 @@ export const LANG = {
       mbti: [
         "MBTI: популярный тест личности, который слишком многое обещает",
         "Как четыре буквы стали новым гороскопом для миллионов людей и почему простые ярлыки личности могут быть обманчивыми.",
+      ],
+      doom: [
+        "DOOM на всём: самые безумные фан-порты классики 1993 года",
+        "Восемь фан-проектов, которые превращают повседневные предметы (и даже живые клетки) в импровизированные машины для DOOM.",
       ],
     },
   },

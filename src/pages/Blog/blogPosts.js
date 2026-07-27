@@ -46,7 +46,23 @@ import mbtiArticleCover from "./content/mbti-210726/cover_horizontal.webp";
 import mbtiMarkdown from "./content/mbti-210726/text.md?raw";
 import mbtiMarkdownRu from "./content/mbti-210726/text-ru.md?raw";
 
+import doomCover from "./content/doom-280726/cover_horizontal.webp";
+import doomArticleCover from "./content/doom-280726/cover_horizontal.webp";
+import doomMarkdown from "./content/doom-280726/text.md?raw";
+import doomMarkdownRu from "./content/doom-280726/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 9,
+    slug: "doom-280726",
+    titleKey: "doom",
+    categoryKey: "roundup",
+    date: { day: 28, monthKey: "jul", year: 2026 },
+    cover: doomCover,
+    articleCover: doomArticleCover,
+    markdown: doomMarkdown,
+    markdownRu: doomMarkdownRu,
+  },
   {
     id: 8,
     slug: "mbti-210726",
