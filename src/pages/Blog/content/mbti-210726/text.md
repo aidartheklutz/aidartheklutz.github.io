@@ -94,7 +94,7 @@ On top of that, if you already want to believe the results or simply find them e
 Here is a funny joke about confirmation bias.
 
 -- Have you read my paper on confirmation bias? <br>
--- Yes, but it only confirmed what what I had already known.
+-- Yes, but it only confirmed what I had already known.
 
 </div>
 
