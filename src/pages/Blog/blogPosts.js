@@ -51,7 +51,23 @@ import doomArticleCover from "./content/doom-280726/cover_horizontal.webp";
 import doomMarkdown from "./content/doom-280726/text.md?raw";
 import doomMarkdownRu from "./content/doom-280726/text-ru.md?raw";
 
+import internetExplorerCover from "./content/internet-explorer-020826/cover_horizontal.webp";
+import internetExplorerArticleCover from "./content/internet-explorer-020826/cover_horizontal.webp";
+import internetExplorerMarkdown from "./content/internet-explorer-020826/text.md?raw";
+import internetExplorerMarkdownRu from "./content/internet-explorer-020826/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 10,
+    slug: "internet-explorer-020826",
+    titleKey: "internetExplorer",
+    categoryKey: "essay",
+    date: { day: 2, monthKey: "aug", year: 2026 },
+    cover: internetExplorerCover,
+    articleCover: internetExplorerArticleCover,
+    markdown: internetExplorerMarkdown,
+    markdownRu: internetExplorerMarkdownRu,
+  },
   {
     id: 9,
     slug: "doom-280726",

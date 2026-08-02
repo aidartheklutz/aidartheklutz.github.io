@@ -62,7 +62,7 @@ export const LANG = {
         "How the FBI secretly ran an encrypted phone company and took down criminal empires worldwide.",
       ],
       httpStatusCodes: [
-        "A Hitchhiker's Guide to HTTP Status Codes",
+        "The Hitchhiker's Guide to HTTP Status Codes",
         "A beginner-friendly explanation of the system that helps websites respond to every request.",
       ],
       mbti: [
@@ -72,6 +72,10 @@ export const LANG = {
       doom: [
         "It Runs DOOM: The Craziest Fan Ports of the 1993 Classic",
         "Eight fan projects that turn everyday objects (and even living cells) into makeshift DOOM machines.",
+      ],
+      internetExplorer: [
+        "The Rise and Fall of Internet Explorer",
+        "How Internet Explorer went from an innovative browser of the late 90s to the biggest enemy of web developers.",
       ],
     },
   },
@@ -148,6 +152,10 @@ export const LANG = {
       doom: [
         "DOOM на всём: самые безумные фан-порты классики 1993 года",
         "Восемь фан-проектов, которые превращают повседневные предметы (и даже живые клетки) в импровизированные машины для DOOM.",
+      ],
+      internetExplorer: [
+        "Взлёт и падение Internet Explorer",
+        "Как Internet Explorer прошёл путь от инновационного браузера конца 90-х до главного врага веб-разработчиков.",
       ],
     },
   },
