@@ -90,7 +90,7 @@ Pets.com активно развивался во время бума дотко
 
 ### Источники
 
-- [RBC](https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df)
+- [РБК Инвестиции](https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df)
 - [Investopedia](https://www.investopedia.com/terms/d/dotcom-bubble.asp)
 
 #### Для части с примерами стартапов
@@ -100,4 +100,3 @@ Pets.com активно развивался во время бума дотко
 - [StreetFins](https://streetfins.com/webvan-the-dotcom-bubbles-biggest-bust/)
 - [Failory](https://www.failory.com/amazon/kozmo-com)
 - [dfarq.homeip.net](https://dfarq.homeip.net/etoys-com-and-its-rapid-rise-and-fall/)
-

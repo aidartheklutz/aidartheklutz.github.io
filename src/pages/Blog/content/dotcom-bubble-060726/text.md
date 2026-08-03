@@ -90,7 +90,7 @@ The dot-com crash became a useful lesson. It showed that hype and user growth do
 
 ### Sources
 
-- [RBC](https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df)
+- [РБК Инвестиции](https://www.rbc.ru/quote/news/article/5ce3d5c99a7947958b7062df)
 - [Investopedia](https://www.investopedia.com/terms/d/dotcom-bubble.asp)
 
 #### For the section with startup examples
@@ -100,4 +100,3 @@ The dot-com crash became a useful lesson. It showed that hype and user growth do
 - [StreetFins](https://streetfins.com/webvan-the-dotcom-bubbles-biggest-bust/)
 - [Failory](https://www.failory.com/amazon/kozmo-com)
 - [dfarq.homeip.net](https://dfarq.homeip.net/etoys-com-and-its-rapid-rise-and-fall/)
-
