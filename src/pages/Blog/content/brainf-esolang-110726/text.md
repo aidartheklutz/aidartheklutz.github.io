@@ -161,8 +161,9 @@ You can read more about esoteric programming languages on [Esolang Wiki](https:/
 
 ### Sources
 
-- https://esolangs.org/wiki/Esoteric_programming_language
-- https://theoutline.com/post/825/brainfuck-coding-languages
-- https://esolangs.org/wiki/Brainfuck
-- https://therenegadecoder.com/code/hello-world-in-brainfuck/
+- [Esolangs Wiki 1](https://esolangs.org/wiki/Esoteric_programming_language)
+- [The Outline](https://theoutline.com/post/825/brainfuck-coding-languages)
+- [Esolangs Wiki 2](https://esolangs.org/wiki/Brainfuck)
+- [The Renegade Coder](https://therenegadecoder.com/code/hello-world-in-brainfuck/)
 - Diagrams made by me :)
+

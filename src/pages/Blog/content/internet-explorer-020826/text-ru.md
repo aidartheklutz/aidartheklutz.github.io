@@ -106,9 +106,10 @@ Netscape, с другой стороны, не успевала за конку�
 
 ### Источники
 
-- https://smartbear.com/blog/why-is-internet-explorer-so-bad/
-- https://arstechnica.com/gadgets/2022/06/remembering-internet-explorer-the-now-dead-browser-that-once-powered-the-internet/
-- https://www.howtogeek.com/32372/htg-explains-why-do-so-many-geeks-hate-internet-explorer/
-- https://en.wikipedia.org/wiki/Internet_Explorer_3
-- https://www.cnet.com/tech/services-and-software/aol-buys-netscape-for-4-2-billion/
-- https://learn.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support
+- [SmartBear](https://smartbear.com/blog/why-is-internet-explorer-so-bad/)
+- [Ars Technica](https://arstechnica.com/gadgets/2022/06/remembering-internet-explorer-the-now-dead-browser-that-once-powered-the-internet/)
+- [How-To Geek](https://www.howtogeek.com/32372/htg-explains-why-do-so-many-geeks-hate-internet-explorer/)
+- [Wikipedia](https://en.wikipedia.org/wiki/Internet_Explorer_3)
+- [CNET](https://www.cnet.com/tech/services-and-software/aol-buys-netscape-for-4-2-billion/)
+- [Microsoft Learn](https://learn.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support)
+

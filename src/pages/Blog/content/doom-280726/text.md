@@ -98,6 +98,7 @@ This project allows DOOM to be launched directly inside conversations with Claud
 
 ### Sources
 
-- https://www.idsoftware.com/en
-- https://canitrundoom.org/
-- https://www.xda-developers.com/7-weirdest-devices-doom-has-been-ported-to-that-you-can-actually-play/
+- [id Software](https://www.idsoftware.com/en)
+- [Can It Run DOOM?](https://canitrundoom.org/)
+- [XDA Developers](https://www.xda-developers.com/7-weirdest-devices-doom-has-been-ported-to-that-you-can-actually-play/)
+

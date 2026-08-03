@@ -111,8 +111,9 @@ ELIZA давно исчезла, но Эффект Элизы сильнее, ч
 
 ### Источники
 
-- https://liacademy.co.uk/the-story-of-eliza-the-ai-that-fooled-the-world/
-- https://www.tayloredsolutions.im/eliza-and-the-birth-of-the-eliza-effect
-- https://www.ixbt.com/live/sw/effekt-elizy-pochemu-sozdatel-pervogo-chat-bota-boyalsya-ne-mashin-a-nashey-gotovnosti-im-verit.html
-- https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis
-- https://archive.computerhistory.org/resources/access/text/2022/04/102683842-05-01-acc.pdf
+- [LI Academy](https://liacademy.co.uk/the-story-of-eliza-the-ai-that-fooled-the-world/)
+- [Taylored Solutions](https://www.tayloredsolutions.im/eliza-and-the-birth-of-the-eliza-effect)
+- [iXBT](https://www.ixbt.com/live/sw/effekt-elizy-pochemu-sozdatel-pervogo-chat-bota-boyalsya-ne-mashin-a-nashey-gotovnosti-im-verit.html)
+- [Psychology Today](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis)
+- [Computer History Museum](https://archive.computerhistory.org/resources/access/text/2022/04/102683842-05-01-acc.pdf)
+

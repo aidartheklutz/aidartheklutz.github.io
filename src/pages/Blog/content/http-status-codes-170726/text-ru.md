@@ -179,7 +179,8 @@
 
 ### Источники
 
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-- https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+- [MDN Web Docs 1](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP)</li>
+- [MDN Web Docs 2](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [Wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 - Иконки для диаграммы HTTP-запроса-ответа взяты с [flaticon.com](https://www.flaticon.com)
+

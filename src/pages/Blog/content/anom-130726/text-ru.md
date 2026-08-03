@@ -121,11 +121,12 @@
 
 ### Источники
 
-- https://www.unodc.org/cld/case-law-doc/drugcrimetype/usa/2019/united_states_of_america_v._ramos_no._318-cr-01404-wqh_s.d._cal._jun_12_2019.html
-- https://www.fbi.gov/news/stories/phantom-secure-takedown-031618
-- https://www.npr.org/transcripts/1197959218
-- https://www.voanews.com/a/usa_how-fake-fbi-encrypted-device-ensnared-criminals-around-world/6206793.html
-- https://www.fbi.gov/news/stories/fbi-global-partners-announce-results-of-operation-trojan-shield-060821
-- https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication
-- https://en.wikipedia.org/wiki/Operation_Trojan_Shield
-- https://youtu.be/EA1KS-xh0n0
+- [UNODC](https://www.unodc.org/cld/case-law-doc/drugcrimetype/usa/2019/united_states_of_america_v._ramos_no._318-cr-01404-wqh_s.d._cal._jun_12_2019.html)
+- [FBI 1](https://www.fbi.gov/news/stories/phantom-secure-takedown-031618)
+- [NPR](https://www.npr.org/transcripts/1197959218)
+- [VOA News](https://www.voanews.com/a/usa_how-fake-fbi-encrypted-device-ensnared-criminals-around-world/6206793.html)
+- [FBI 2](https://www.fbi.gov/news/stories/fbi-global-partners-announce-results-of-operation-trojan-shield-060821)
+- [Europol](https://www.europol.europa.eu/media-press/newsroom/news/800-criminals-arrested-in-biggest-ever-law-enforcement-operation-against-encrypted-communication)
+- [Wikipedia](https://en.wikipedia.org/wiki/Operation_Trojan_Shield)
+- [YouTube](https://youtu.be/EA1KS-xh0n0)
+

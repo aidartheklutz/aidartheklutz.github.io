@@ -114,10 +114,11 @@ MBTI может стать неплохой темой для разговора
 
 ### Источники
 
-- https://www.forbes.ru/forbeslife/472485-umestit-celovecestvo-v-16-tipov-cto-takoe-testirovanie-mbti-i-stoit-li-emu-verit
-- https://www.marketplace.org/story/2018/10/30/myers-briggs-system-evaluate-employees
-- https://jobcannon.io/blog/does-mbti-predict-job-performance
-- https://www.myersbriggs.org/my-mbti-personality-type/myers-briggs-overview/
-- https://www.fermion.com.au/why-you-should-never-use-myers-briggs-or-the-disc-for-recruitment
-- https://www.psychologytoday.com/us/blog/quantum-leaps/202004/two-reasons-personality-tests-like-myers-briggs-could-be-harmful
-- https://areomagazine.com/2021/03/09/should-you-trust-the-myers-briggs-personality-test/
+- [Forbes](https://www.forbes.ru/forbeslife/472485-umestit-celovecestvo-v-16-tipov-cto-takoe-testirovanie-mbti-i-stoit-li-emu-verit)
+- [Marketplace](https://www.marketplace.org/story/2018/10/30/myers-briggs-system-evaluate-employees)
+- [JobCannon](https://jobcannon.io/blog/does-mbti-predict-job-performance)
+- [Myers & Briggs](https://www.myersbriggs.org/my-mbti-personality-type/myers-briggs-overview/)
+- [Fermion](https://www.fermion.com.au/why-you-should-never-use-myers-briggs-or-the-disc-for-recruitment)
+- [Psychology Today](https://www.psychologytoday.com/us/blog/quantum-leaps/202004/two-reasons-personality-tests-like-myers-briggs-could-be-harmful)
+- [Areo](https://areomagazine.com/2021/03/09/should-you-trust-the-myers-briggs-personality-test/)
+

@@ -81,10 +81,11 @@ What started as a simple way to tell jokes apart from serious messages on a coll
 
 ### Sources
 
-- https://www.cs.cmu.edu/~sef/sefSmiley.htm
-- https://www.ebsco.com/research-starters/social-sciences-and-humanities/evolution-emoji
-- https://jobsinjapan.com/living-in-japan-guide/the-origin-of-kaomoji/
-- https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/
-- https://time.com/5628119/apple-world-emoji-day/
-- https://www.unicode.org/L2/L2014/14280-wd-uts51-draft.pdf
-- https://emojipedia.org/unicode-6.0
+- [CMU](https://www.cs.cmu.edu/~sef/sefSmiley.htm)
+- [EBSCO](https://www.ebsco.com/research-starters/social-sciences-and-humanities/evolution-emoji)
+- [Jobs in Japan](https://jobsinjapan.com/living-in-japan-guide/the-origin-of-kaomoji/)
+- [Emojipedia 1](https://blog.emojipedia.org/correcting-the-record-on-the-first-emoji-set/)
+- [Time](https://time.com/5628119/apple-world-emoji-day/)
+- [Unicode](https://www.unicode.org/L2/L2014/14280-wd-uts51-draft.pdf)
+- [Emojipedia 2](https://emojipedia.org/unicode-6.0)
+

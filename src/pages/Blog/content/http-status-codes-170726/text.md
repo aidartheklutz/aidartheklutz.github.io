@@ -179,7 +179,8 @@ One of the main advantages of HTTP status codes is how much information they con
 
 ### Sources
 
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
-- https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+- [MDN Web Docs 1](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Evolution_of_HTTP)
+- [MDN Web Docs 2](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status)
+- [Wikipedia](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes)
 - Icons for the HTTP request-response diagram were taken from [flaticon.com](https://www.flaticon.com)
+

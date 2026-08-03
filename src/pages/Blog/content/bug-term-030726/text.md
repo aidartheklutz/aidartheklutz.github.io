@@ -46,9 +46,9 @@ So the 1947 moth story is a good anectode, but it is not really the starting poi
 
 ### Sources
 
-- https://spectrum.ieee.org/did-you-know-edison-coined-the-term-bug
-- https://americanhistory.si.edu/collections/nmah_334663
-- https://www.computerhistory.org/tdih/september/9/
+- [IEEE Spectrum](https://spectrum.ieee.org/did-you-know-edison-coined-the-term-bug)
+- [Smithsonian Institution](https://americanhistory.si.edu/collections/nmah_334663)
+- [Computer History Museum](https://www.computerhistory.org/tdih/september/9/)
 
 ### Author's note
 
