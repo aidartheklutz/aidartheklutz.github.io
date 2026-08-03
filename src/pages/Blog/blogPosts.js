@@ -116,7 +116,7 @@ export const BLOG_POSTS = [
     id: 6,
     slug: "brainf-esolang-110726",
     titleKey: "brainf",
-    categoryKey: "essay",
+    categoryKey: "explainer",
     date: { day: 11, monthKey: "jul", year: 2026 },
     cover: brainfCover,
     articleCover: brainfArticleCover,
