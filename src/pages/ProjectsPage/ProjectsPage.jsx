@@ -12,6 +12,7 @@ import SpectrumND from "./covers/SpectrumND.png";
 import ActiveRecaller from "./covers/ActiveRecaller.png";
 import WeatherNowKg from "./covers/WeatherNowKg.png";
 import Academap from "./covers/Academap.png";
+import ReactLanguageSwitcher from "./covers/ReactLanguageSwitcher.png";
 
 function ProjectsPage() {
   const [language, setLanguage] = useLanguage();
@@ -40,6 +41,13 @@ function ProjectsPage() {
       alt: "Academap cover",
       description: lang.pdesc.academap,
       github: "https://github.com/aidartheklutz/academap#screenshots",
+    },
+    {
+      title: "React Language Switcher",
+      image: ReactLanguageSwitcher,
+      alt: "ReactLanguageSwitcher cover",
+      description: lang.pdesc.reactLanguageSwitcher,
+      github: "https://github.com/aidartheklutz/react-language-switcher",
     },
     {
       title: "MemoMate",
