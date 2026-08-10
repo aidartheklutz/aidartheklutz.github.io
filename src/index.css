@@ -27,7 +27,6 @@ html {
     scrollbar-width: thin;
 }
 
-/* Subtle blue scrollbar for Chromium, Safari, and other WebKit browsers. */
 ::-webkit-scrollbar {
     width: 0.65rem;
 }
