@@ -88,4 +88,3 @@ What started as a simple way to tell jokes apart from serious messages on a coll
 - [Time](https://time.com/5628119/apple-world-emoji-day/)
 - [Unicode](https://www.unicode.org/L2/L2014/14280-wd-uts51-draft.pdf)
 - [Emojipedia 2](https://emojipedia.org/unicode-6.0)
-

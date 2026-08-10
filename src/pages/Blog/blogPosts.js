@@ -56,9 +56,25 @@ import internetExplorerArticleCover from "./content/internet-explorer-020826/cov
 import internetExplorerMarkdown from "./content/internet-explorer-020826/text.md?raw";
 import internetExplorerMarkdownRu from "./content/internet-explorer-020826/text-ru.md?raw";
 
+import y2kBugCover from "./content/y2k-bug-100826/cover_horizontal.webp";
+import y2kBugArticleCover from "./content/y2k-bug-100826/cover_horizontal.webp";
+import y2kBugMarkdown from "./content/y2k-bug-100826/text.md?raw";
+import y2kBugMarkdownRu from "./content/y2k-bug-100826/text-ru.md?raw";
+
 export const BLOG_POSTS = [
   {
-    id: 10,
+    id: 12,
+    slug: "y2k-bug-100826",
+    titleKey: "y2kBug",
+    categoryKey: "essay",
+    date: { day: 10, monthKey: "aug", year: 2026 },
+    cover: y2kBugCover,
+    articleCover: y2kBugArticleCover,
+    markdown: y2kBugMarkdown,
+    markdownRu: y2kBugMarkdownRu,
+  },
+  {
+    id: 11,
     slug: "internet-explorer-020826",
     titleKey: "internetExplorer",
     categoryKey: "essay",
@@ -69,7 +85,7 @@ export const BLOG_POSTS = [
     markdownRu: internetExplorerMarkdownRu,
   },
   {
-    id: 9,
+    id: 10,
     slug: "doom-280726",
     titleKey: "doom",
     categoryKey: "roundup",
@@ -80,7 +96,7 @@ export const BLOG_POSTS = [
     markdownRu: doomMarkdownRu,
   },
   {
-    id: 8,
+    id: 9,
     slug: "mbti-210726",
     titleKey: "mbti",
     categoryKey: "essay",
