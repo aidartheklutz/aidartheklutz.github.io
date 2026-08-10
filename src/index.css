@@ -14,13 +14,38 @@
     --solo-blue: #0339fc;
     --paragraph-blue: #3863ff;
     --link: #312ed1;
+    --scrollbar-track: #010a2b;
+    --scrollbar-thumb: #315bb8;
+    --scrollbar-thumb-hover: #5d8dff;
 }
 /* =========================
    BASE LAYOUT
 ========================= */
 html {
     font-size: 22px;
+    scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+    scrollbar-width: thin;
 }
+
+/* Subtle blue scrollbar for Chromium, Safari, and other WebKit browsers. */
+::-webkit-scrollbar {
+    width: 0.65rem;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--scrollbar-thumb);
+    border: 0.16rem solid var(--scrollbar-track);
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--scrollbar-thumb-hover);
+}
+
 body {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
