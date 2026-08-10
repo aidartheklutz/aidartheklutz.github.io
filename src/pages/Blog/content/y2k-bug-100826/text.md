@@ -4,7 +4,7 @@ The possible consequences were difficult to predict. There were concerns that fa
 
 ## Storing 70 Instead of 1970
 
-In 1957, Rear Admiral Grace Murray Hopper invented [FLOW-MATIC](https://en.wikipedia.org/wiki/FLOW-MATIC) -- the first programming language to use English keywords and mnemonics to represent instructions, such as `INPUT`, `OUTPUT`, `TRANSFER X TO Y`, `WRITE-ITEM A`, etc. Three years later, FLOW-MATIC became the basis for [COBOL](https://www.ibm.com/think/topics/cobol), short for "common business-oriented language". COBOL was developed as part of a US Department of Defense initiative that aimed to create a programming language capable of running across different operating systems.
+In 1957, Rear Admiral [Grace Murray Hopper](https://www.britannica.com/biography/Grace-Hopper) invented [FLOW-MATIC](https://en.wikipedia.org/wiki/FLOW-MATIC) -- the first programming language to use English keywords and mnemonics to represent instructions, such as `INPUT`, `OUTPUT`, `TRANSFER X TO Y`, `WRITE-ITEM A`, etc. Three years later, FLOW-MATIC became the basis for [COBOL](https://www.ibm.com/think/topics/cobol), short for "common business-oriented language". COBOL was developed as part of a US Department of Defense initiative that aimed to create a programming language capable of running across different operating systems.
 
 At the time, one of the main ways computers stored information was through [punch cards](https://www.ibm.com/history/punched-card). These were pieces of stiff paper with rows of small holes punched into them. Different patterns of holes represented letters, numbers, and other kinds of information. Computers could read and interpret data from these cards.
 
