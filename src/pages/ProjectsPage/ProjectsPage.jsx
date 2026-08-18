@@ -13,6 +13,7 @@ import ActiveRecaller from "./covers/ActiveRecaller.png";
 import WeatherNowKg from "./covers/WeatherNowKg.png";
 import Academap from "./covers/Academap.png";
 import ReactLanguageSwitcher from "./covers/ReactLanguageSwitcher.png";
+import DiabEase from "./covers/diabease.png";
 
 function ProjectsPage() {
   const [language, setLanguage] = useLanguage();
@@ -23,6 +24,7 @@ function ProjectsPage() {
       title: "Active Recaller",
       image: ActiveRecaller,
       alt: "Active Recaller cover",
+      roles: ["soleDeveloper"],
       description: lang.pdesc.activeRecaller,
       github: "https://github.com/aidartheklutz/active-recaller",
       open: "https://activerecaller.vercel.app",
@@ -31,6 +33,7 @@ function ProjectsPage() {
       title: "TSITools",
       image: TSITools,
       alt: "TSITools cover",
+      roles: ["soleDeveloper"],
       description: lang.pdesc.tsiTools,
       open: "https://tsitools.vercel.app",
       github: "https://github.com/aidartheklutz/newTsiTools",
@@ -39,6 +42,7 @@ function ProjectsPage() {
       title: "Academap",
       image: Academap,
       alt: "Academap cover",
+      roles: ["teamLead", "frontend"],
       description: lang.pdesc.academap,
       github: "https://github.com/aidartheklutz/academap#screenshots",
     },
@@ -46,13 +50,23 @@ function ProjectsPage() {
       title: "React Language Switcher",
       image: ReactLanguageSwitcher,
       alt: "ReactLanguageSwitcher cover",
+      roles: ["soleDeveloper"],
       description: lang.pdesc.reactLanguageSwitcher,
       github: "https://github.com/aidartheklutz/react-language-switcher",
+    },
+    {
+      title: "DiabEase",
+      image: DiabEase,
+      alt: "DiabEase cover",
+      roles: ["teamMember", "mobile", "design"],
+      description: lang.pdesc.diabEase,
+      github: "https://github.com/irfadox/DeabEase",
     },
     {
       title: "MemoMate",
       image: MemoMate,
       alt: "MemoMate cover",
+      roles: ["teamLead", "mobile"],
       description: lang.pdesc.memoMate,
       github: "https://github.com/aidartheklutz/MemoMate",
       open: "https://expo.dev/accounts/aidartheklutz/projects/memomate/builds/c96e95c1-2b1f-4b57-b074-801fb5582071",
@@ -61,6 +75,7 @@ function ProjectsPage() {
       title: "SpectrumND",
       image: SpectrumND,
       alt: "SpectrumND cover",
+      roles: ["soleDeveloper"],
       description: lang.pdesc.spectrumNd,
       open: "https://instagram.com/spectrum_nd",
     },
@@ -68,6 +83,7 @@ function ProjectsPage() {
       title: "ПОГОДА ВОТ ЩАС",
       image: WeatherNowKg,
       alt: "WeatherNowKg cover",
+      roles: ["soleDeveloper"],
       description: lang.pdesc.pogoda,
       open: "https://weathernowkg.vercel.app",
       github: "https://github.com/aidartheklutz/weather-now-kg",
@@ -95,7 +111,17 @@ function ProjectsPage() {
               />
 
               <div className="project-info">
-                <p className="project-title">{project.title}</p>
+                <div className="project-heading">
+                  <p className="project-title">{project.title}</p>
+                  {project.roles?.length > 0 && (
+                    <p className="project-roles">
+                      {project.roles
+                        .map((role) => lang.roles[role])
+                        .filter(Boolean)
+                        .join(" · ")}
+                    </p>
+                  )}
+                </div>
 
                 <p className="project-description">{project.description}</p>
 

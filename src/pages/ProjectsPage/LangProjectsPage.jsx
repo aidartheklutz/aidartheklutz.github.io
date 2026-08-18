@@ -3,6 +3,18 @@ export const LANG = {
     heading: "My Projects",
     description: "Stuff I've made so far",
     open: "Open",
+    roles: {
+      soleDeveloper: "Sole Developer",
+      teamLead: "Team Lead",
+      coLead: "Co-Lead",
+      teamMember: "Team Member",
+      fullStack: "Full-Stack Developer",
+      interface: "UI/UX Designer",
+      design: "Graphic Designer",
+      frontend: "Frontend Developer",
+      backend: "Backend Developer",
+      mobile: "Mobile Developer",
+    },
     pdesc: {
       activeRecaller:
         "A web app designed to help students memorize texts using the Active Recall technique. The user pastes the text they need to remember the contents of, reads it, and gets transferred to the writing section once ready. The user recreates the text from memory and then an AI compares the user's recall with the original text. The user is then provided with a convenient list of points they wrote correctly, missed, remembered inaccurately, or made up.",
@@ -18,12 +30,26 @@ export const LANG = {
         "I created ПОГОДА ВОТ ЩАС (Weather Now KG) as a small exercise in working with APIs and UI design, and it took about four hours to complete in total. It's a convenient website that provides weather information for most cities in Kyrgyzstan, displaying the current weather at the moment the page is opened.",
       reactLanguageSwitcher:
         "React Language Switcher is a lightweight React hook and component designed to simplify adding language switching to React applications. It allows developers to quickly implement multilingual support, save users' language preferences, and switch between multiple languages without the complexity of a full internationalization library.",
+      diabEase:
+        "An app for people with diabetes that helps track health indicators, nutrition, and physical activity, receive reminders, and identify potentially dangerous changes. It also enables communication with a doctor for more effective health monitoring.",
     },
   },
   RU: {
     heading: "Мои проекты",
     description: "Всякие штуки, созданные мной",
     open: "Открыть",
+    roles: {
+      soleDeveloper: "Единственный разработчик",
+      teamLead: "Руководитель команды",
+      coLead: "Соруководитель команды",
+      teamMember: "Участник команды",
+      fullStack: "Fullstack-разработчик",
+      interface: "UI/UX-дизайнер",
+      design: "Графический дизайнер",
+      frontend: "Frontend-разработчик",
+      backend: "Backend-разработчик",
+      mobile: "Разработчик мобильного приложения",
+    },
     pdesc: {
       activeRecaller:
         "Веб-приложение, созданное, чтобы помогать студентам запоминать тексты с помощью техники активного воспроизведения (Active Recall). Пользователь вставляет текст, который нужно запомнить, читает его, а когда готов – переходит в раздел написания. Там он восстанавливает текст по памяти, после чего ИИ сравнивает его припоминание с оригиналом. В итоге пользователь получает удобный список: что написал правильно, что пропустил, что запомнил неточно и что выдумал.",
@@ -39,6 +65,8 @@ export const LANG = {
         "Я создал ПОГОДА ВОТ ЩАС как небольшое упражнение по работе с API и дизайном интерфейса. На всё ушло около четырёх часов. Это удобный сайт, который показывает актуальную погоду в большинстве городов Кыргызстана на момент открытия страницы.",
       reactLanguageSwitcher:
         "Лёгкий React-хук и компонент, которые помогают быстро добавить поддержку нескольких языков в React-приложения. Он позволяет сохранять выбранный язык пользователя и переключаться между языками без необходимости использовать большие и сложные библиотеки для локализации.",
+      diabEase:
+        "Приложение для людей с диабетом, которое помогает отслеживать показатели здоровья, питание и физическую активность, получать напоминания и замечать потенциально опасные изменения. Также приложение позволяет поддерживать связь с врачом для более эффективного контроля состояния.",
     },
   },
 };

@@ -77,14 +77,32 @@
     gap: 1rem;
 }
 
+.project-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 0.18rem;
+}
+
 .project-title {
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0;
+    line-height: 1.2;
+}
+
+.project-roles {
+    margin: 0;
+    font-size: 0.78em;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    line-height: 1.3;
+    color: var(--pale-blue);
+    opacity: 0.85;
 }
 
 .project-description {
     color: var(--pale-blue);
+    margin-top: 0.45rem;
 }
 
 
