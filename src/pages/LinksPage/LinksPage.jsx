@@ -12,6 +12,12 @@ const socials = [
     icon: "bi-github",
   },
   {
+    name: "LinkedIn",
+    handle: "Aidar Yrysov",
+    link: "https://www.linkedin.com/in/aidar-yrysov-011b8a426/",
+    icon: "bi-linkedin",
+  },
+  {
     name: "Bluesky",
     handle: "@aid4r.bsky.social",
     link: "https://bsky.app/profile/aid4r.bsky.social",
@@ -54,16 +60,16 @@ const socials = [
     icon: "bi-threads",
   },
   {
-    name: "Hardcover",
-    handle: "@aidartheklutz",
-    link: "https://hardcover.app/@aidartheklutz",
-    icon: "bi-journal-bookmark-fill",
-  },
-  {
     name: "Goodreads",
     handle: "aidartheklutz",
     link: "https://www.goodreads.com/aidartheklutz",
     icon: "bi-book-fill",
+  },
+  {
+    name: "Hardcover",
+    handle: "@aidartheklutz",
+    link: "https://hardcover.app/@aidartheklutz",
+    icon: "bi-journal-bookmark-fill",
   },
 ];
 
