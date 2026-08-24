@@ -81,6 +81,10 @@ export const LANG = {
         "Y2K Bug: The Computer Crisis That Never Came",
         "Why January 1, 2000 felt like the end of the world right up until the moment it didn’t.",
       ],
+      openaiAttack: [
+        "When an AI Agent Takes the Test Too Seriously",
+        "How models designed to solve cybersecurity challenges found ways to reach the real internet.",
+      ],
     },
   },
   RU: {
@@ -164,6 +168,10 @@ export const LANG = {
       y2kBug: [
         "Проблема Y2K: компьютерный кризис, которого не было",
         "Почему 1 января 2000 года казалось концом света прямо до того момента, пока ничего не случилось.",
+      ],
+      openaiAttack: [
+        "Когда ИИ-агент слишком серьёзно относится к тесту",
+        "Как модели, созданные для решения задач по кибербезопасности, нашли способы выйти в настоящий интернет.",
       ],
     },
   },

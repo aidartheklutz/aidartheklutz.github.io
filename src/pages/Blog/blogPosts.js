@@ -61,7 +61,23 @@ import y2kBugArticleCover from "./content/y2k-bug-100826/cover_horizontal.webp";
 import y2kBugMarkdown from "./content/y2k-bug-100826/text.md?raw";
 import y2kBugMarkdownRu from "./content/y2k-bug-100826/text-ru.md?raw";
 
+import openaiAttackCover from "./content/openai-attack-240826/cover_horizontal.webp";
+import openaiAttackArticleCover from "./content/openai-attack-240826/cover_horizontal.webp";
+import openaiAttackMarkdown from "./content/openai-attack-240826/text.md?raw";
+import openaiAttackMarkdownRu from "./content/openai-attack-240826/text-ru.md?raw";
+
 export const BLOG_POSTS = [
+  {
+    id: 13,
+    slug: "openai-attack-240826",
+    titleKey: "openaiAttack",
+    categoryKey: "essay",
+    date: { day: 24, monthKey: "aug", year: 2026 },
+    cover: openaiAttackCover,
+    articleCover: openaiAttackArticleCover,
+    markdown: openaiAttackMarkdown,
+    markdownRu: openaiAttackMarkdownRu,
+  },
   {
     id: 12,
     slug: "y2k-bug-100826",
