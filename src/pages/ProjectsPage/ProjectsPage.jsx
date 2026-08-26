@@ -60,7 +60,7 @@ function ProjectsPage() {
       alt: "DiabEase cover",
       roles: ["teamMember", "mobile", "design"],
       description: lang.pdesc.diabEase,
-      github: "https://github.com/irfadox/DeabEase",
+      github: "https://github.com/irfadox/DiabEase",
     },
     {
       title: "MemoMate",
