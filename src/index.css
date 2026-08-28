@@ -349,7 +349,7 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
 #dropdownMenu {
     position: fixed;
     top: 80px;
-    right: 240px;
+    right: 1vw;
     left: 240px;
     background-color: #0226a8f2;
     backdrop-filter: blur(12px);
@@ -450,7 +450,7 @@ a:hover, p.blue-link a:hover, #navMenu:hover {
         max-width: 100%;
         left: 0;
         right: 0;
-        padding: 0.8rem 1.25rem;
+        padding: 0.23rem 1.25rem;
         border-bottom: 1px solid var(--border-color);
         border-left: none;
         border-right: none;

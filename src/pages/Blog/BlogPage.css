@@ -213,8 +213,13 @@ h2 {
 
 .article-content {
     line-height: 1.8;
-    font-size: 0.95rem;
 }
+
+.article-content h2 {
+    margin-bottom: -10px;
+}
+
+/*
 
 .article-content h2 {
     font-size: 1.6rem;
@@ -246,6 +251,8 @@ h2 {
     margin-bottom: 0.5rem;
     line-height: 1.7;
 }
+
+*/
 
 .article-content img {
     width: 100%;
