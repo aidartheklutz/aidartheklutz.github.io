@@ -48,11 +48,7 @@ button {
     margin-top: calc(2vw + 3.8rem);
 }
 
-@media (max-width: 500px) {
-    .homepage-wrapper {
-        margin-top: 3.2rem;
-    }
-}
+
 
 .homepage-content {
     display: flex;
@@ -366,7 +362,7 @@ button {
     }
 
     .raccoonWrapper {
-        margin-top: 8vw;
+        margin-top: 0.25vw;
         justify-content: center;
     }
     .button-link {
