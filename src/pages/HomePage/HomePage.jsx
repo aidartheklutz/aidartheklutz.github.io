@@ -90,24 +90,31 @@ function HomePage() {
                 </NavLink>
 
                 <div className="socials-tray1">
-                  <a className="social" href="https://github.com/aidartheklutz">
+                  <a
+                    className="social"
+                    href="https://github.com/aidartheklutz"
+                    target="_blank"
+                  >
                     <i className="bi bi-github"></i>
                   </a>
                   <a
                     className="social"
                     href="https://www.linkedin.com/in/aidar-yrysov-011b8a426/"
+                    target="_blank"
                   >
                     <i className="bi bi-linkedin"></i>
                   </a>
                   <a
                     className="social"
                     href="https://bsky.app/profile/aid4r.bsky.social"
+                    target="_blank"
                   >
                     <i className="bi bi-bluesky"></i>
                   </a>
                   <a
                     className="social"
                     href="https://www.instagram.com/aidartheklutz"
+                    target="_blank"
                   >
                     <i className="bi bi-instagram"></i>
                   </a>
