@@ -1,7 +1,7 @@
 export const LANG = {
   EN: {
     heading: "My Projects",
-    description: "Stuff I've made so far",
+    description: "Some of the stuff I worked on",
     open: "Open",
     roles: {
       soleDeveloper: "Sole Developer",
@@ -36,7 +36,7 @@ export const LANG = {
   },
   RU: {
     heading: "Мои проекты",
-    description: "Всякие штуки, созданные мной",
+    description: "Всякие штуки, над которыми я работал",
     open: "Открыть",
     roles: {
       soleDeveloper: "Единственный разработчик",
