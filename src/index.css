@@ -28,6 +28,8 @@
 ========================= */
 html {
     font-size: 22px;
+    overflow-y: scroll;
+
     scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
     scrollbar-width: thin;
 }
