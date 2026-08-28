@@ -63,13 +63,16 @@ function BlogArticle() {
       <div className="margin-wrapper">
         <div className="article-page">
           <SwitchLanguage align="left" />
-          <p className="blog-category">{localizedPost.category}</p>
+          <div className="article-meta-header">
+            <span className="blog-category">{localizedPost.category}</span>
+            <span className="article-meta-dot">•</span>
+            <span className="article-date">{localizedPost.dateLabel}</span>
+            <span className="article-meta-dot">•</span>
+            <span className="article-reading-time">
+              {readingTime} {lang.readingTime}
+            </span>
+          </div>
           <h1 className="article-title">{localizedPost.title}</h1>
-
-          <p className="article-date">{localizedPost.dateLabel}</p>
-          <p className="article-reading-time">
-            {readingTime} {lang.readingTime}
-          </p>
 
           <img
             src={localizedPost.articleCover}

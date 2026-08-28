@@ -18,22 +18,20 @@
 .project-box {
     display: flex;
     gap: 1.5rem;
-
-    background-color: var(--blue-opaque);
-
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
     padding: 1rem;
     border-radius: 1.5rem;
-
-   
-    transition:
-        transform 0.2s ease,
-        background-color 0.2s ease;
-    
+    box-shadow: 0 4px 15px #00000026;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
     cursor: default;
 }
 
 .project-box:hover {
     transform: translateY(-2px);
+    background-color: var(--card-bg-hover);
+    border-color: var(--border-hover);
+    box-shadow: 0 6px 20px #00000040, 0 0 12px #9ab0fe0d;
 }
 
 
@@ -44,14 +42,15 @@
 .project-cover {
     width: 140px;
     height: 140px;
-
     object-fit: cover;
-
     border-radius: 1rem;
-
     flex-shrink: 0;
+    box-shadow: 0 4px 12px #00000033;
+    transition: transform 0.3s ease;
+}
 
-    
+.project-box:hover .project-cover {
+    transform: scale(1.02);
 }
 
 
@@ -122,43 +121,41 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
-
     text-decoration: none;
-
     border-radius: 999px;
-
     padding: 0.75rem 1.2rem;
-
     font-weight: 600;
-
-    transition:
-        background-color 0.2s ease,
-        color 0.2s ease,
-        transform 0.2s ease;
+    border: 1px solid transparent;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease, transform 0.2s ease, box-shadow 0.25s ease;
 }
 
 .project-button:hover {
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px #00000040;
 }
 
 .github-button {
     background-color: var(--dark-blue);
     color: var(--white);
+    border-color: var(--border-color);
 }
 
 .github-button:hover {
     background-color: var(--white);
     color: var(--dark-blue);
+    border-color: var(--white);
 }
 
 .open-button {
     background-color: var(--blue);
     color: var(--white);
+    border-color: var(--border-color);
 }
 
 .open-button:hover {
     background-color: var(--pale-blue);
     color: var(--blue);
+    border-color: var(--pale-blue);
 }
 
 .project-button i {
@@ -172,16 +169,14 @@
 
 .project-profile {
     width: fit-content;
-
     padding: 20px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     border-radius: 40px;
-
-    background-color: var(--blue);
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 8px 30px #00000033;
 }
 
 .project-logo {

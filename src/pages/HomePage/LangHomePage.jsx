@@ -14,6 +14,7 @@ export const LANG = {
       </p>
     ),
     aboutMe: "About me",
+    newBlogPosts: "New Blog Posts",
   },
   RU: {
     greeting: "Привет, я Айдар!",
@@ -27,5 +28,6 @@ export const LANG = {
       </p>
     ),
     aboutMe: "Обо мне",
+    newBlogPosts: "Новые статьи",
   },
 };

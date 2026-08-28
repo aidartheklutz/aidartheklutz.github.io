@@ -24,7 +24,10 @@ function NavBar() {
         accumulatedDelta = 0;
       } else {
         // If scroll direction changes, reset accumulated delta
-        if ((delta > 0 && accumulatedDelta < 0) || (delta < 0 && accumulatedDelta > 0)) {
+        if (
+          (delta > 0 && accumulatedDelta < 0) ||
+          (delta < 0 && accumulatedDelta > 0)
+        ) {
           accumulatedDelta = 0;
         }
         accumulatedDelta += delta;

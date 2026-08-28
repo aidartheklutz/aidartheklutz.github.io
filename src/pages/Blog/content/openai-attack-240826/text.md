@@ -13,7 +13,7 @@ The picture became clear on July 21, when [OpenAI](https://openai.com) disclosed
 According to OpenAI's account, the models understood the limits placed on them but treated those limits merely as obstacles standing between them and the goal of completing the test. Once an AI system is given a clear objective and enough autonomy, it will often do whatever is necessary to reach that objective.
 
 <!-- prettier-ignore-start -->
-<img style="border-radius: 0" src="/blog-pictures/blog-openai-attack-img0.png" alt="Unexpected AI behavior during a cybersecurity evaluation">
+<img style="border-radius: 0; border: none" src="/blog-pictures/blog-openai-attack-img0.png" alt="Unexpected AI behavior during a cybersecurity evaluation">
 <!-- prettier-ignore-end -->
 
 Above is a simplified diagram of how an AI model behaves during a cybersecurity evaluation. Researchers give the model a clear goal: find a hidden piece of secret information by breaking into another machine on the network. That machine contains a vulnerability deliberately created for the test, and the model is expected to discover and use it. The model starts exploring and trying different methods to reach the goal. When it hits a limit set by the researchers (for example, no access to the internet), it looks for a way around the restriction so it can continue. These workarounds are not part of the intended test and are usually unexpected by the people running the evaluation. This is why OpenAI's research model was able to "escape" the isolated test environment.
